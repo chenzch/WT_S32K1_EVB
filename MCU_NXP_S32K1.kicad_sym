@@ -1,0 +1,1755 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "FS32K144HAT0MLHT"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.192 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FS32K144HAT0MLHT"
+			(at -12.7 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(at 11.684 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
+			(at -1.524 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
+			(at 45.466 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NXP Semiconductors"
+			(at -2.286 -11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 41.402 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "LQFP-64 NXP"
+			(at 52.832 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 15.748 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "FS32K144HAT0MLHT_1_0"
+			(rectangle
+				(start -12.7 38.1)
+				(end 12.7 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "PTA7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE3" bidirectional line)
+				(alternate "FTM0_FLT2" bidirectional line)
+				(alternate "LPUART1_RTS" bidirectional line)
+				(alternate "RTC_CLKIN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 17.78 0)
+				(length 5.08)
+				(name "PTA6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE2" bidirectional line)
+				(alternate "FTM0_FLT1" bidirectional line)
+				(alternate "LPSPI1_PCS1" bidirectional line)
+				(alternate "LPUART1_CTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 25.4 0)
+				(length 5.08)
+				(name "PTA3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE1" bidirectional line)
+				(alternate "EWM_IN" bidirectional line)
+				(alternate "FTM3_CH1" bidirectional line)
+				(alternate "FXIO_D5" bidirectional line)
+				(alternate "LPI2C0_SCL" bidirectional line)
+				(alternate "LPUART0_TX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 27.94 0)
+				(length 5.08)
+				(name "PTA2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE0" bidirectional line)
+				(alternate "EWM_OUT_b" bidirectional line)
+				(alternate "FTM3_CH0" bidirectional line)
+				(alternate "FXIO_D4" bidirectional line)
+				(alternate "LPI2C0_SDA" bidirectional line)
+				(alternate "LPUART0_RX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 30.48 0)
+				(length 5.08)
+				(name "PTA1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE1" bidirectional line)
+				(alternate "CMP0_IN1" bidirectional line)
+				(alternate "FTM1_CH1" bidirectional line)
+				(alternate "FTM1_QD_PHA" bidirectional line)
+				(alternate "FXIO_D3" bidirectional line)
+				(alternate "LPI2C0_SDAS" bidirectional line)
+				(alternate "LPUART0_RTS" bidirectional line)
+				(alternate "TRGMUX_OUT0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 33.02 0)
+				(length 5.08)
+				(name "PTA0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE0" bidirectional line)
+				(alternate "CMP0_IN0" bidirectional line)
+				(alternate "FTM2_CH1" bidirectional line)
+				(alternate "FTM2_QD_PHA" bidirectional line)
+				(alternate "FXIO_D2" bidirectional line)
+				(alternate "LPI2C0_SCLS" bidirectional line)
+				(alternate "LPUART0_CTS" bidirectional line)
+				(alternate "TRGMUX_OUT3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "PTA13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CAN1_TX" bidirectional line)
+				(alternate "FTM1_CH7" bidirectional line)
+				(alternate "FTM2_QD_PHA" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "PTA12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CAN1_RX" bidirectional line)
+				(alternate "FTM1_CH6" bidirectional line)
+				(alternate "FTM2_QD_PHB" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "PTA11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_RRT" bidirectional line)
+				(alternate "FTM1_CH5" bidirectional line)
+				(alternate "FXIO_D1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "PTA10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM1_CH4" bidirectional line)
+				(alternate "FXIO_D0" bidirectional line)
+				(alternate "JTAG_TDO" bidirectional line)
+				(alternate "TRACE_SWO" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "PTA5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "RESET_b" bidirectional line)
+				(alternate "TCLK1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 22.86 0)
+				(length 5.08)
+				(name "PTA4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_OUT" bidirectional line)
+				(alternate "EWM_OUT_b" bidirectional line)
+				(alternate "JTAG_TMS" bidirectional line)
+				(alternate "SWD_DIO" bidirectional line)
+			)
+		)
+		(symbol "FS32K144HAT0MLHT_2_0"
+			(rectangle
+				(start -12.7 38.1)
+				(end 12.7 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "PTB7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "EXTAL" bidirectional line)
+				(alternate "LPI2C0_SCL" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 17.78 0)
+				(length 5.08)
+				(name "PTB6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "LPI2C0_SDA" bidirectional line)
+				(alternate "XTAL" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "PTB5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CLKOUT" bidirectional line)
+				(alternate "FTM0_CH5" bidirectional line)
+				(alternate "LPSPI0_PCS0" bidirectional line)
+				(alternate "LPSPI0_PCS1" bidirectional line)
+				(alternate "TRGMUX_IN0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 22.86 0)
+				(length 5.08)
+				(name "PTB4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM0_CH4" bidirectional line)
+				(alternate "LPSPI0_SOUT" bidirectional line)
+				(alternate "TRGMUX_IN1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 25.4 0)
+				(length 5.08)
+				(name "PTB3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE7" bidirectional line)
+				(alternate "FTM1_CH1" bidirectional line)
+				(alternate "FTM1_QD_PHA" bidirectional line)
+				(alternate "LPSPI0_SIN" bidirectional line)
+				(alternate "TRGMUX_IN2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 27.94 0)
+				(length 5.08)
+				(name "PTB2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE6" bidirectional line)
+				(alternate "FTM1_CH0" bidirectional line)
+				(alternate "FTM1_QD_PHB" bidirectional line)
+				(alternate "LPSPI0_SCK" bidirectional line)
+				(alternate "TRGMUX_IN3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 30.48 0)
+				(length 5.08)
+				(name "PTB1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE5" bidirectional line)
+				(alternate "ADC1_SE15" bidirectional line)
+				(alternate "CAN0_TX" bidirectional line)
+				(alternate "LPSPI0_SOUT" bidirectional line)
+				(alternate "LPUART0_TX" bidirectional line)
+				(alternate "TCLK0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 33.02 0)
+				(length 5.08)
+				(name "PTB0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE4" bidirectional line)
+				(alternate "ADC1_SE14" bidirectional line)
+				(alternate "CAN0_RX" bidirectional line)
+				(alternate "LPSPI0_PCS0" bidirectional line)
+				(alternate "LPTMR0_ALT3" bidirectional line)
+				(alternate "LPUART0_RX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "PTB13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE8" bidirectional line)
+				(alternate "ADC1_SE8" bidirectional line)
+				(alternate "CAN2_TX" bidirectional line)
+				(alternate "FTM0_CH1" bidirectional line)
+				(alternate "FTM3_FLT1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "PTB12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE7" bidirectional line)
+				(alternate "CAN2_RX" bidirectional line)
+				(alternate "FTM0_CH0" bidirectional line)
+				(alternate "FTM3_FLT2" bidirectional line)
+			)
+		)
+		(symbol "FS32K144HAT0MLHT_3_0"
+			(rectangle
+				(start -12.7 38.1)
+				(end 12.7 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 27.94 0)
+				(length 5.08)
+				(name "PTC3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE11" bidirectional line)
+				(alternate "CAN0_TX" bidirectional line)
+				(alternate "CMP0_IN4" bidirectional line)
+				(alternate "FTM0_CH3" bidirectional line)
+				(alternate "LPUART0_TX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 30.48 0)
+				(length 5.08)
+				(name "PTC2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE10" bidirectional line)
+				(alternate "CAN0_RX" bidirectional line)
+				(alternate "CMP0_IN5" bidirectional line)
+				(alternate "FTM0_CH2" bidirectional line)
+				(alternate "LPUART0_RX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 33.02 0)
+				(length 5.08)
+				(name "PTC1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE9" bidirectional line)
+				(alternate "FTM0_CH1" bidirectional line)
+				(alternate "FTM1_CH7" bidirectional line)
+				(alternate "LPSPI2_SOUT" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 35.56 0)
+				(length 5.08)
+				(name "PTC0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE8" bidirectional line)
+				(alternate "FTM0_CH0" bidirectional line)
+				(alternate "FTM1_CH6" bidirectional line)
+				(alternate "LPSPI2_SIN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "PTC17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE15" bidirectional line)
+				(alternate "CAN2_TX" bidirectional line)
+				(alternate "FTM1_FLT3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "PTC16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE14" bidirectional line)
+				(alternate "CAN2_RX" bidirectional line)
+				(alternate "FTM1_FLT2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "PTC15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE13" bidirectional line)
+				(alternate "FTM1_CH3" bidirectional line)
+				(alternate "LPSPI2_SCK" bidirectional line)
+				(alternate "TRGMUX_IN8" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "PTC14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC0_SE12" bidirectional line)
+				(alternate "FTM1_CH2" bidirectional line)
+				(alternate "LPSPI2_PCS0" bidirectional line)
+				(alternate "TRGMUX_IN9" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "PTC9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM1_FLT1" bidirectional line)
+				(alternate "LPUART0_RTS" bidirectional line)
+				(alternate "LPUART1_TX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "PTC8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM1_FLT0" bidirectional line)
+				(alternate "LPUART0_CTS" bidirectional line)
+				(alternate "LPUART1_RX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 17.78 0)
+				(length 5.08)
+				(name "PTC7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE5" bidirectional line)
+				(alternate "CAN1_TX" bidirectional line)
+				(alternate "FTM1_QD_PHA" bidirectional line)
+				(alternate "FTM3_CH3" bidirectional line)
+				(alternate "LPUART1_TX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "PTC6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE4" bidirectional line)
+				(alternate "CAN1_RX" bidirectional line)
+				(alternate "FTM1_QD_PHB" bidirectional line)
+				(alternate "FTM3_CH2" bidirectional line)
+				(alternate "LPUART1_RX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 22.86 0)
+				(length 5.08)
+				(name "PTC5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM2_CH0" bidirectional line)
+				(alternate "FTM2_QD_PHB" bidirectional line)
+				(alternate "JTAG_TDI" bidirectional line)
+				(alternate "RTC_CLKOUT" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 25.4 0)
+				(length 5.08)
+				(name "PTC4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_IN2" bidirectional line)
+				(alternate "EWM_IN" bidirectional line)
+				(alternate "FTM1_CH0" bidirectional line)
+				(alternate "FTM1_QD_PHB" bidirectional line)
+				(alternate "JTAG_TCLK" bidirectional line)
+				(alternate "RTC_CLKOUT" bidirectional line)
+				(alternate "SWD_CLK" bidirectional line)
+			)
+		)
+		(symbol "FS32K144HAT0MLHT_4_0"
+			(rectangle
+				(start -12.7 38.1)
+				(end 12.7 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 30.48 0)
+				(length 5.08)
+				(name "PTD1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM0_CH3" bidirectional line)
+				(alternate "FTM2_CH1" bidirectional line)
+				(alternate "FXIO_D1" bidirectional line)
+				(alternate "LPSPI1_SIN" bidirectional line)
+				(alternate "TRGMUX_OUT2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "PTD16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_RRT" bidirectional line)
+				(alternate "FTM0_CH1" bidirectional line)
+				(alternate "LPSPI0_SIN" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "PTD15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM0_CH0" bidirectional line)
+				(alternate "LPSPI0_SCK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 33.02 0)
+				(length 5.08)
+				(name "PTD0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM0_CH2" bidirectional line)
+				(alternate "FTM2_CH0" bidirectional line)
+				(alternate "FXIO_D0" bidirectional line)
+				(alternate "LPSPI1_SCK" bidirectional line)
+				(alternate "TRGMUX_OUT1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "PTD7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_IN6" bidirectional line)
+				(alternate "FTM2_FLT3" bidirectional line)
+				(alternate "LPUART2_TX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 17.78 0)
+				(length 5.08)
+				(name "PTD6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_IN7" bidirectional line)
+				(alternate "FTM2_FLT2" bidirectional line)
+				(alternate "LPUART2_RX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "PTD5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM2_CH3" bidirectional line)
+				(alternate "FTM2_FLT1" bidirectional line)
+				(alternate "LPTMR0_ALT2" bidirectional line)
+				(alternate "TRGMUX_IN7" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 22.86 0)
+				(length 5.08)
+				(name "PTD4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE6" bidirectional line)
+				(alternate "FTM0_FLT3" bidirectional line)
+				(alternate "FTM3_FLT3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 25.4 0)
+				(length 5.08)
+				(name "PTD3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE3" bidirectional line)
+				(alternate "FTM3_CH5" bidirectional line)
+				(alternate "FXIO_D5" bidirectional line)
+				(alternate "FXIO_D7" bidirectional line)
+				(alternate "LPSPI1_PCS0" bidirectional line)
+				(alternate "NMI_b" bidirectional line)
+				(alternate "TRGMUX_IN4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 27.94 0)
+				(length 5.08)
+				(name "PTD2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE2" bidirectional line)
+				(alternate "FTM3_CH4" bidirectional line)
+				(alternate "FXIO_D4" bidirectional line)
+				(alternate "FXIO_D6" bidirectional line)
+				(alternate "LPSPI1_SOUT" bidirectional line)
+				(alternate "TRGMUX_IN5" bidirectional line)
+			)
+		)
+		(symbol "FS32K144HAT0MLHT_5_0"
+			(rectangle
+				(start -12.7 38.1)
+				(end 12.7 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 25.4 0)
+				(length 5.08)
+				(name "PTE3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_OUT" bidirectional line)
+				(alternate "FTM0_FLT0" bidirectional line)
+				(alternate "FTM2_FLT0" bidirectional line)
+				(alternate "LPUART2_RTS" bidirectional line)
+				(alternate "TRGMUX_IN6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "PTE9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM0_CH7" bidirectional line)
+				(alternate "LPUART2_CTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "PTE8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CMP0_IN3" bidirectional line)
+				(alternate "FTM0_CH6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "PTE11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM2_CH5" bidirectional line)
+				(alternate "FXIO_D5" bidirectional line)
+				(alternate "LPSPI2_PCS0" bidirectional line)
+				(alternate "LPTMR0_ALT1" bidirectional line)
+				(alternate "TRGMUX_OUT5" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "PTE7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM0_CH7" bidirectional line)
+				(alternate "FTM3_FLT0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "PTE10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CLKOUT" bidirectional line)
+				(alternate "FTM2_CH4" bidirectional line)
+				(alternate "FXIO_D4" bidirectional line)
+				(alternate "LPSPI2_PCS1" bidirectional line)
+				(alternate "TRGMUX_OUT4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "PTE5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CAN0_TX" bidirectional line)
+				(alternate "EWM_IN" bidirectional line)
+				(alternate "FTM2_CH3" bidirectional line)
+				(alternate "FTM2_QD_PHA" bidirectional line)
+				(alternate "FXIO_D7" bidirectional line)
+				(alternate "TCLK2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 17.78 0)
+				(length 5.08)
+				(name "PTE6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE11" bidirectional line)
+				(alternate "FTM3_CH7" bidirectional line)
+				(alternate "LPSPI0_PCS2" bidirectional line)
+				(alternate "LPUART1_RTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 27.94 0)
+				(length 5.08)
+				(name "PTE2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC1_SE10" bidirectional line)
+				(alternate "FTM3_CH6" bidirectional line)
+				(alternate "LPSPI0_SOUT" bidirectional line)
+				(alternate "LPTMR0_ALT3" bidirectional line)
+				(alternate "LPUART1_CTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 30.48 0)
+				(length 5.08)
+				(name "PTE1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM1_FLT1" bidirectional line)
+				(alternate "LPI2C0_HREQ" bidirectional line)
+				(alternate "LPSPI0_SIN" bidirectional line)
+				(alternate "LPSPI1_PCS0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 22.86 0)
+				(length 5.08)
+				(name "PTE4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "CAN0_RX" bidirectional line)
+				(alternate "EWM_OUT_b" bidirectional line)
+				(alternate "FTM2_CH2" bidirectional line)
+				(alternate "FTM2_QD_PHB" bidirectional line)
+				(alternate "FXIO_D6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -17.78 33.02 0)
+				(length 5.08)
+				(name "PTE0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "FTM1_FLT2" bidirectional line)
+				(alternate "LPSPI0_SCK" bidirectional line)
+				(alternate "LPSPI1_SOUT" bidirectional line)
+				(alternate "TCLK1" bidirectional line)
+			)
+		)
+		(symbol "FS32K144HAT0MLHT_6_0"
+			(rectangle
+				(start -12.7 38.1)
+				(end 12.7 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -17.78 11.43 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 13.97 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 31.75 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 29.21 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 31.75 180)
+				(length 5.08)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 13.97 180)
+				(length 5.08)
+				(name "VREFH"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SWD_6P"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0.762 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SWD_6P_1_0"
+			(rectangle
+				(start 0 20.32)
+				(end 10.16 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SWD_6P_1_1"
+			(pin power_in line
+				(at -2.54 16.51 0)
+				(length 2.54)
+				(name "VTref"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 13.97 0)
+				(length 2.54)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -2.54 11.43 0)
+				(length 2.54)
+				(name "SWCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 8.89 0)
+				(length 2.54)
+				(name "SWO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at -2.54 6.35 0)
+				(length 2.54)
+				(name "nRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+)

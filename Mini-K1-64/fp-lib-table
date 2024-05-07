@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "WTMEC")(type "KiCad")(uri "${KIPRJMOD}/../WTMEC.pretty")(options "")(descr ""))
+)
