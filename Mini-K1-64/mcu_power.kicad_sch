@@ -2919,7 +2919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a62a19c-70ba-4e96-b65e-99a96cb29ee7")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 104.14 86.3599 0)
 			(effects
 				(font
@@ -2973,7 +2973,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/5ab829c3-c884-4688-b0b2-238a69b254c8"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3055,7 +3055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8baa54-e232-43d4-8da7-6d7cd4f2939f")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 185.42 102.8699 0)
 			(effects
 				(font
@@ -3109,7 +3109,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/5ab829c3-c884-4688-b0b2-238a69b254c8"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14b54846-adc6-403c-8abc-38f774784f7e")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 95.25 86.3599 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/5ab829c3-c884-4688-b0b2-238a69b254c8"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3395,7 +3395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4160a8cc-b4f4-41fa-83aa-1b83e345b043")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 175.26 102.8699 0)
 			(effects
 				(font
@@ -3449,7 +3449,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/5ab829c3-c884-4688-b0b2-238a69b254c8"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3597,7 +3597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "896e5c0e-485e-4c12-9da3-f1f3e655b4dd")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 113.03 86.3599 0)
 			(effects
 				(font
@@ -3651,7 +3651,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/5ab829c3-c884-4688-b0b2-238a69b254c8"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3962,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e4b411-8806-44ff-94b4-efdc64638c95")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 121.92 86.3599 0)
 			(effects
 				(font
@@ -4016,7 +4016,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/5ab829c3-c884-4688-b0b2-238a69b254c8"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)

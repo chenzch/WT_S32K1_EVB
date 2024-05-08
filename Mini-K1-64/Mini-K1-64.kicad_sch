@@ -521,7 +521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84dfe7ef-fa3e-4297-b374-900fb57e55b4")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 58.42 120.142 0)
 			(effects
 				(font
@@ -571,7 +571,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -717,7 +717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec955012-da39-49ea-b81b-d6417f6395bf")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 58.42 127.762 0)
 			(effects
 				(font
@@ -767,7 +767,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
