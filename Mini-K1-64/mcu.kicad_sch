@@ -1192,7 +1192,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "MCU_NXP_S32K1:QFP50P1200X1200X160-64N"
+			(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 				(at 11.684 -9.144 0)
 				(effects
 					(font
@@ -5335,6 +5335,306 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
+		(at 91.44 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a9c428-3220-4121-a398-2516b599ecef")
+		(property "Reference" "U2"
+			(at 105.41 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS32K144HAT0MLHT"
+			(at 105.41 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(at 103.124 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
+			(at 89.916 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
+			(at 136.906 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NXP Semiconductors"
+			(at 89.154 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 132.842 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "LQFP-64 NXP"
+			(at 144.272 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 107.188 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "50"
+			(uuid "c8be3fd6-79a4-45ac-9988-fe3a44668426")
+		)
+		(pin "38"
+			(uuid "8d952036-98cc-40bd-869f-3ec72995fca1")
+		)
+		(pin "44"
+			(uuid "ecc6549c-bafc-4c2f-9378-f9d954c1e566")
+		)
+		(pin "43"
+			(uuid "3653fb09-a3ad-4c77-9e0c-9d669b5a6db3")
+		)
+		(pin "28"
+			(uuid "b1f0561b-2d9a-4b14-894d-cd6b5a5aeb05")
+		)
+		(pin "36"
+			(uuid "b050ab18-29e8-4ab8-b25f-b877dc149198")
+		)
+		(pin "37"
+			(uuid "0a57f56d-6356-4ade-aa39-7e4b2c6ab6d2")
+		)
+		(pin "51"
+			(uuid "c1ef0827-a194-4f60-8498-20279656c9af")
+		)
+		(pin "52"
+			(uuid "ebb316ca-514a-4e5b-91fe-25b56cdd7ff3")
+		)
+		(pin "21"
+			(uuid "f0d5505a-d6ed-4855-8283-e12fb44d2c82")
+		)
+		(pin "61"
+			(uuid "a71ff2f4-7660-4887-aa27-c54644caa564")
+		)
+		(pin "49"
+			(uuid "45733aa5-f25a-410c-97d0-c33b3cc03fcb")
+		)
+		(pin "42"
+			(uuid "746ea163-afcd-4f43-8d70-80532436f38a")
+		)
+		(pin "47"
+			(uuid "17cd4a0b-d6e9-4885-8025-9f4c85be9679")
+		)
+		(pin "33"
+			(uuid "3ad4f58e-6ea0-429c-999a-4410fb5b319e")
+		)
+		(pin "55"
+			(uuid "5a5f36df-8ef2-4be4-a145-579262fa3305")
+		)
+		(pin "34"
+			(uuid "f2f61058-2614-4b65-84b6-baa5969039d6")
+		)
+		(pin "25"
+			(uuid "e712529a-246e-4c14-9249-79ea8f43b3e0")
+		)
+		(pin "19"
+			(uuid "363d62ae-10c2-46e5-a677-21b7a99cdef4")
+		)
+		(pin "27"
+			(uuid "5412c74b-81ed-42be-9f50-aea4a9358d5a")
+		)
+		(pin "48"
+			(uuid "0c2897e8-b087-4437-a7a8-74078826ddbb")
+		)
+		(pin "11"
+			(uuid "62a2dbef-8454-41f9-8ac0-8e8eb538edbf")
+		)
+		(pin "64"
+			(uuid "4a13d463-ff78-4b95-9442-30cd61766ca7")
+			(alternate "SWD_DIO")
+		)
+		(pin "29"
+			(uuid "e3a3d58f-1c73-472f-9a71-79972998811e")
+		)
+		(pin "30"
+			(uuid "d051640f-d5e5-4e80-a006-78c9890138fb")
+		)
+		(pin "62"
+			(uuid "179c987b-9950-473d-8abb-0a39a1500f33")
+		)
+		(pin "1"
+			(uuid "cf842c72-c912-45cb-8e01-1397c1aae9a4")
+		)
+		(pin "26"
+			(uuid "b7b5b400-3652-4529-8725-7cbbb15eaa95")
+		)
+		(pin "14"
+			(uuid "12e3b3fc-6585-460c-a7bc-a1433281d094")
+		)
+		(pin "15"
+			(uuid "98dd9d8c-fb75-493c-a815-888d4928a4b2")
+		)
+		(pin "63"
+			(uuid "40e2dcf7-dfaf-41df-b2ef-ee1acd62c2ec")
+			(alternate "RESET_b")
+		)
+		(pin "12"
+			(uuid "de3b0f0f-5492-4b94-b984-858b006af15a")
+		)
+		(pin "32"
+			(uuid "7e55bfbc-d236-4417-a999-049c2b705bd6")
+		)
+		(pin "18"
+			(uuid "b5d9194c-d6dc-45a2-b2da-5690d13c7202")
+		)
+		(pin "58"
+			(uuid "084fbefe-595f-4c02-a0bf-64efc0642693")
+			(alternate "TRACE_SWO")
+		)
+		(pin "35"
+			(uuid "1c1cbe36-af3f-47f6-9ddd-54323c4df4d9")
+		)
+		(pin "56"
+			(uuid "f25909fb-c3c0-46d1-b95a-e1b4d325eb97")
+		)
+		(pin "57"
+			(uuid "b68dbfa7-d6ab-446d-b4e2-6412f2ccb368")
+		)
+		(pin "31"
+			(uuid "e35fd29a-65bf-41f2-b040-abaf962c5a9b")
+		)
+		(pin "20"
+			(uuid "328922e0-8bf3-4e7c-96f9-bbe396367f6c")
+		)
+		(pin "22"
+			(uuid "2aa244db-208d-4f5b-b40d-da4280d1c9fe")
+		)
+		(pin "41"
+			(uuid "986d9565-aa5a-428f-a4ba-e3b393e67751")
+		)
+		(pin "7"
+			(uuid "4c398f71-32d1-4ee3-9947-64052cc7f551")
+		)
+		(pin "9"
+			(uuid "3e53240e-c658-4da9-856c-901e51ef7c8d")
+		)
+		(pin "5"
+			(uuid "9b33b268-5d5a-4519-a2d7-ea68be9a6985")
+		)
+		(pin "46"
+			(uuid "d7861f40-acfc-4633-9dac-b1617633bffe")
+		)
+		(pin "59"
+			(uuid "240da89b-65b0-4d0d-9fea-39e013f649cb")
+		)
+		(pin "10"
+			(uuid "b8bb5d4f-4b34-48ac-93e3-7b3dbcde15e2")
+		)
+		(pin "8"
+			(uuid "eb3b4bc7-960c-4221-acca-f4c70278444f")
+		)
+		(pin "6"
+			(uuid "89cc6e37-f046-46b9-b0ff-2d79c317546f")
+		)
+		(pin "2"
+			(uuid "82f856f9-e53e-45a2-b943-9226d3f2e892")
+		)
+		(pin "4"
+			(uuid "d8a5f0fc-b6f7-47b1-bc21-a20cd99a54fa")
+		)
+		(pin "3"
+			(uuid "d3251804-c5e8-42d8-bf19-05b5394e553a")
+		)
+		(pin "13"
+			(uuid "52c105d6-0b07-416d-9c3d-a6015ef7541d")
+		)
+		(pin "40"
+			(uuid "cc39d8f8-5992-4b4c-aa99-781c34ef7c52")
+		)
+		(pin "17"
+			(uuid "eb40a3c3-f1f5-48a4-b609-4c735ec7afcd")
+		)
+		(pin "23"
+			(uuid "a374c159-12db-49e7-ad3d-9b6cc962cd6c")
+		)
+		(pin "24"
+			(uuid "63538d52-7c10-470d-9f05-046581ebe5c2")
+		)
+		(pin "53"
+			(uuid "3f86e98c-8b91-48a4-ab77-d33778a31a34")
+		)
+		(pin "16"
+			(uuid "2115886b-d89a-4060-a792-ff7b8245b16d")
+		)
+		(pin "39"
+			(uuid "e2175ddc-4d0c-45fb-9c6a-53d1ba8262a5")
+		)
+		(pin "54"
+			(uuid "735cd923-49d7-4f92-a07c-0427a18291ba")
+		)
+		(pin "45"
+			(uuid "371a73d8-f538-4504-8168-e8a51bf6be7a")
+		)
+		(pin "60"
+			(uuid "334bcef5-a5a4-40ac-83bf-e7d4a1080c92")
+		)
+		(instances
+			(project "Mini-K1-64"
+				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 252.73 48.26 0)
 		(mirror x)
@@ -5787,306 +6087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
-		(at 91.44 147.32 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4619fc0c-200e-4c12-b793-69a0bc10e6e4")
-		(property "Reference" "U2"
-			(at 105.41 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FS32K144HAT0MLHT"
-			(at 105.41 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 103.124 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
-			(at 89.916 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
-			(at 136.906 152.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 89.154 159.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 132.842 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "LQFP-64 NXP"
-			(at 144.272 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 107.188 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "25"
-			(uuid "e65ed95a-6c28-4b13-b2cf-2a5f8ccff713")
-		)
-		(pin "48"
-			(uuid "1debe287-fa1d-4246-bd3b-bd8b00a5ad27")
-		)
-		(pin "36"
-			(uuid "cedbd88e-869c-44cb-be60-f7c72492d024")
-		)
-		(pin "51"
-			(uuid "dc6eedd5-7e06-4445-ad94-3023befa1624")
-		)
-		(pin "55"
-			(uuid "cd5dbbb7-0a2a-4ae0-ae77-dbd7d1465050")
-		)
-		(pin "27"
-			(uuid "1f8fa40b-3bab-4bd0-ae0c-374e53b6f09f")
-		)
-		(pin "29"
-			(uuid "d1aec206-ac1a-4b29-ac37-cc2969cb4060")
-		)
-		(pin "61"
-			(uuid "ef656f12-9b39-4638-93cc-f3a7c8812594")
-		)
-		(pin "62"
-			(uuid "d3f2ff5b-8a0c-4b28-9eb9-60386f208b74")
-			(alternate "SWD_CLK")
-		)
-		(pin "21"
-			(uuid "4a500d2d-eca0-46f6-9f9a-b1ba79cb6033")
-			(alternate "LPUART0_RX")
-		)
-		(pin "22"
-			(uuid "9d764608-33a2-47e9-a1c8-192130d9f78f")
-		)
-		(pin "24"
-			(uuid "ad1ee9bf-c760-4a53-a0ed-befca6b09d07")
-		)
-		(pin "50"
-			(uuid "a5e89785-a7ee-4b0f-948e-10a5c13829ef")
-		)
-		(pin "44"
-			(uuid "9a8c76cc-a821-4e65-a9d0-b53b3ddb905a")
-		)
-		(pin "34"
-			(uuid "47bc3a48-320b-45e0-addb-31c89a960493")
-		)
-		(pin "46"
-			(uuid "4103bc4e-9fe3-424d-85bf-a71d98a5a616")
-		)
-		(pin "13"
-			(uuid "98b382a7-47ec-4ed2-b286-013cf66d8793")
-		)
-		(pin "39"
-			(uuid "b18be8ae-19a9-447d-8d96-c6df8fd028af")
-		)
-		(pin "37"
-			(uuid "3d9917bc-3ba0-42c0-8990-64d2f8cdd226")
-		)
-		(pin "57"
-			(uuid "aff48a87-7697-4830-b472-4665aed8fc31")
-		)
-		(pin "49"
-			(uuid "fdc12ae6-fe24-45ed-8806-d6fe6ecc326f")
-		)
-		(pin "31"
-			(uuid "926c6d90-bfdc-4a5e-a727-58bc62f9516c")
-		)
-		(pin "35"
-			(uuid "3e9d5ff1-8848-4e64-95f6-fa2870a63a5f")
-		)
-		(pin "5"
-			(uuid "056d1a63-cd98-41d4-9b47-5fcc4bbb6eb5")
-		)
-		(pin "53"
-			(uuid "634f09ed-fe38-4d02-8330-9bbe6e9d11c9")
-		)
-		(pin "18"
-			(uuid "647e9adc-62bc-4266-b356-c51b6964d8ac")
-		)
-		(pin "6"
-			(uuid "55d77959-574e-4257-9ea9-17850a9e9d55")
-		)
-		(pin "2"
-			(uuid "bbe1d4ca-bf85-4919-84d9-78c338ff9862")
-		)
-		(pin "30"
-			(uuid "dfe86f68-69d1-4b22-84f3-ac238e2d6860")
-		)
-		(pin "60"
-			(uuid "2b5a3480-91c8-48cb-94e9-f012f35d3def")
-		)
-		(pin "15"
-			(uuid "55b8c885-d549-4aa4-bd0b-a6e4eff296db")
-		)
-		(pin "32"
-			(uuid "de477e6e-ea87-4a34-944e-beb66b0e8096")
-		)
-		(pin "38"
-			(uuid "19b1a84d-e021-44a1-9265-cb5e86c83511")
-		)
-		(pin "47"
-			(uuid "06ad35e1-d290-4d4c-9dd3-e7170ee1bb0e")
-		)
-		(pin "42"
-			(uuid "a100cb0b-5e06-4036-a591-8068d7367802")
-		)
-		(pin "43"
-			(uuid "fbbaf46a-da2b-47b7-bc7e-aaf67f6074ed")
-		)
-		(pin "26"
-			(uuid "42be1e9f-4440-4d75-b65b-fdba01c323d8")
-		)
-		(pin "16"
-			(uuid "ba12655c-c3b6-4f73-864e-6a622607698a")
-		)
-		(pin "3"
-			(uuid "120832a1-279f-43fe-a1b7-83ecf05be8e3")
-		)
-		(pin "28"
-			(uuid "6de3f300-7678-4d22-98b2-842fd37ee94e")
-		)
-		(pin "23"
-			(uuid "3ea8545d-91bf-4410-b379-aa7e87ee000c")
-		)
-		(pin "59"
-			(uuid "66b3748d-d50f-4a2b-838f-8086d5e98a20")
-		)
-		(pin "10"
-			(uuid "e9c65e94-40a0-49bf-be1f-3a7c335e6918")
-		)
-		(pin "40"
-			(uuid "65676d41-1e38-46ef-bc85-baa9aef471fe")
-		)
-		(pin "54"
-			(uuid "af12be91-46e1-458d-8f37-389866108cdf")
-		)
-		(pin "41"
-			(uuid "add4d0f6-593e-436a-bece-6a8158aa21b2")
-		)
-		(pin "7"
-			(uuid "4efa7197-07f8-4f60-b4fb-09cbc1767072")
-		)
-		(pin "20"
-			(uuid "17bea237-61ee-4de2-921a-2330b7f22d03")
-			(alternate "LPUART0_TX")
-		)
-		(pin "52"
-			(uuid "601e40c5-3a07-463f-ae72-c623d81da6a6")
-		)
-		(pin "11"
-			(uuid "f8b5a3d7-17c5-429e-bd2a-2c234f611c64")
-		)
-		(pin "58"
-			(uuid "e6249c7e-4b41-422c-b35d-625ae2d1b42a")
-		)
-		(pin "14"
-			(uuid "1bfea9eb-7064-45ab-80ce-9ebd97584b72")
-		)
-		(pin "17"
-			(uuid "41c8c4f9-c9ff-4408-a4bd-a71394b7660b")
-		)
-		(pin "4"
-			(uuid "4b1d11b8-6a00-41d8-abb9-cfa8d7489f8a")
-		)
-		(pin "8"
-			(uuid "5a637a01-6d03-4bd6-bbbc-46fd16104f5d")
-		)
-		(pin "9"
-			(uuid "f6ccf733-3512-47ec-8250-d9ec55eeb2bc")
-		)
-		(pin "45"
-			(uuid "d37f0e22-21e4-4fd7-833c-e2faa084adbd")
-		)
-		(pin "33"
-			(uuid "b8d06f31-693a-4be6-be33-8dd389392ced")
-		)
-		(pin "56"
-			(uuid "6fc3605c-2374-4183-8597-65456fa03d6a")
-		)
-		(pin "1"
-			(uuid "992793ff-6ace-482a-93fc-134bac665d17")
-		)
-		(pin "12"
-			(uuid "77b20d17-3590-4720-8000-478fbdb355f1")
-		)
-		(pin "64"
-			(uuid "990b36f3-db79-45ac-93cc-4c38297975fb")
-		)
-		(pin "63"
-			(uuid "cdca07cf-f6be-40de-8156-9158958b4eb7")
-		)
-		(pin "19"
-			(uuid "d66afbdf-2806-465c-91d0-cd3405f506a0")
-		)
-		(instances
-			(project "Mini-K1-64"
-				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 55.88 116.84 90)
 		(unit 1)
@@ -6096,15 +6096,15 @@
 		(dnp no)
 		(uuid "46980cd5-3ac9-4e0f-8d46-f275b8caf8ee")
 		(property "Reference" "R15"
-			(at 55.118 116.84 90)
+			(at 51.308 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 57.912 116.84 90)
+		(property "Value" "10K"
+			(at 56.134 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,16 +6223,16 @@
 	)
 	(symbol
 		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
-		(at 91.44 104.14 0)
-		(unit 2)
+		(at 156.21 104.14 0)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63218bf1-5e73-4ec1-8e47-f3d8ed42b016")
+		(uuid "678bebb8-b780-420d-b1f5-fa2926675230")
 		(property "Reference" "U2"
-			(at 105.41 83.8199 0)
+			(at 170.18 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6241,7 @@
 			)
 		)
 		(property "Value" "FS32K144HAT0MLHT"
-			(at 105.41 86.3599 0)
+			(at 170.18 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6250,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 103.124 113.284 0)
+			(at 167.894 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6260,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
-			(at 89.916 195.58 0)
+			(at 154.686 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6269,7 @@
 			)
 		)
 		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
-			(at 136.906 109.474 0)
+			(at 201.676 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6278,7 @@
 			)
 		)
 		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 89.154 115.824 0)
+			(at 153.924 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +6288,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 132.842 113.284 0)
+			(at 197.612 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6298,7 @@
 			)
 		)
 		(property "Package" "LQFP-64 NXP"
-			(at 144.272 113.284 0)
+			(at 209.042 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6308,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 107.188 116.078 0)
+			(at 171.958 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,205 +6317,203 @@
 				(hide yes)
 			)
 		)
-		(pin "10"
-			(uuid "fbb87a14-094f-490e-91ed-b29b28354c5c")
-		)
-		(pin "53"
-			(uuid "655ab1fa-8797-4d56-952f-c4cab1da2dfb")
-		)
-		(pin "40"
-			(uuid "eff452a9-341f-4113-aeb2-a2e7b89dbca0")
-		)
-		(pin "4"
-			(uuid "1f7d38c7-cf38-4893-b314-4c8eb09d2f0a")
-		)
-		(pin "39"
-			(uuid "982b525e-8f56-4c5d-8ed6-fc1434ce4519")
-		)
-		(pin "5"
-			(uuid "85fcfa7b-0c9d-47d3-ab19-6c33662aaec6")
-		)
-		(pin "41"
-			(uuid "c7618014-5c7f-4145-bda4-bf2d00f5b689")
-		)
-		(pin "54"
-			(uuid "80047ac7-ec1c-4b95-8e83-99685d7aa738")
-		)
-		(pin "59"
-			(uuid "199a837d-5c39-4f04-9a2e-e215586da740")
-		)
-		(pin "6"
-			(uuid "9cb0ac5c-6a0e-4a71-a72e-804532dfc870")
-		)
-		(pin "7"
-			(uuid "5bea4437-69b2-4773-9e68-9bfbf97b2bf7")
-		)
-		(pin "9"
-			(uuid "ad0b223a-3c78-4224-98b1-0c2ab37f12ed")
-		)
-		(pin "8"
-			(uuid "583c9884-d869-407b-a55f-b1643455b595")
-		)
-		(pin "60"
-			(uuid "f0ca100e-ef8a-47f1-85bd-e88272d23aac")
-		)
-		(pin "28"
-			(uuid "e4525a3f-4664-4cb0-83a1-449adfc0c666")
-		)
-		(pin "29"
-			(uuid "7129a175-7e1f-4852-8323-6d92156083c9")
-		)
-		(pin "16"
-			(uuid "3e03514a-ce88-44f9-a666-780dc63944e0")
-		)
-		(pin "1"
-			(uuid "deaecb67-e0f9-4e05-ac66-baff86788f71")
-		)
-		(pin "35"
-			(uuid "a2355206-7071-4331-9fe2-202956edff3c")
-		)
-		(pin "20"
-			(uuid "5ddffcca-1833-4e44-b3e0-c2fe4f6981b7")
-		)
-		(pin "11"
-			(uuid "c40969e9-9fe4-4fc4-9a46-2c0c0b395958")
-			(alternate "EXTAL")
-		)
-		(pin "27"
-			(uuid "e916368f-9e15-43e5-9c2d-95da72127631")
-		)
-		(pin "49"
-			(uuid "a031f10e-94ae-47e0-9d4d-ca152a338cfa")
-		)
-		(pin "18"
-			(uuid "b77309b9-66ee-464d-8b46-a5502782c092")
-		)
-		(pin "51"
-			(uuid "5ba0b6e7-0831-4d6a-b7ee-f46a578ea43f")
-		)
-		(pin "62"
-			(uuid "58a4531e-460b-4e1a-8ae7-70c9c38ecf43")
-		)
-		(pin "55"
-			(uuid "7ae73fb3-6f98-466a-bfc1-efa299faef84")
-		)
-		(pin "37"
-			(uuid "a74d9b4f-fce5-4dde-ac56-87a0ae40f0e5")
-		)
-		(pin "64"
-			(uuid "4cd0556d-7961-4eb8-ac6e-8104cb225d57")
-		)
-		(pin "32"
-			(uuid "866e8894-7099-4631-aa15-aae62ff63ea9")
-		)
-		(pin "33"
-			(uuid "a0c87f83-1fe2-4213-80fe-454d3153a305")
-		)
-		(pin "42"
-			(uuid "89c93a58-e848-4918-a32a-8da75dd2d1d7")
-		)
-		(pin "52"
-			(uuid "50629eb3-64cf-45b5-a64f-86a4c7c8b179")
-		)
-		(pin "21"
-			(uuid "5a832d51-29fe-45c5-ac28-f79703dc9b9b")
-		)
-		(pin "22"
-			(uuid "c5381ad0-b189-4248-904f-4ebcd6a616ec")
-		)
-		(pin "30"
-			(uuid "9617acd7-b89a-4d19-8bbc-5082056bbc19")
-		)
-		(pin "31"
-			(uuid "936fad2d-e7cd-4e6c-bcaa-d9171e194ea8")
-		)
-		(pin "46"
-			(uuid "7d34fc93-7329-4732-9b2c-6afe7aa3d117")
-		)
-		(pin "13"
-			(uuid "3fd66aad-7bb4-407f-9b41-753b4844aed0")
-		)
-		(pin "58"
-			(uuid "777930d0-2727-43d0-95bf-8e2e3316e17e")
-		)
-		(pin "43"
-			(uuid "79e4a29a-7976-4bbd-8e38-8c36dcc3d635")
-		)
-		(pin "17"
-			(uuid "6c39c3f6-90f7-47e7-8631-aa8e5fafd42a")
-		)
-		(pin "44"
-			(uuid "af459ee4-7d5e-4486-acbc-8667b79999ab")
-		)
-		(pin "12"
-			(uuid "cfa836b3-7f96-46c0-8266-adddb16eb1ba")
-			(alternate "XTAL")
-		)
-		(pin "3"
-			(uuid "e74f8005-2dcd-4e27-a503-8ab5fed053a9")
-		)
-		(pin "2"
-			(uuid "966dad54-4800-45ff-a312-dfba34fc70a4")
-		)
 		(pin "50"
-			(uuid "90c3a534-b02b-44a6-a074-788e6f355050")
-		)
-		(pin "56"
-			(uuid "56c79379-f768-4bb4-a934-86cc181f5f31")
-		)
-		(pin "63"
-			(uuid "8c03d7fb-e5af-4ae4-91fb-08d52379a6b1")
-		)
-		(pin "15"
-			(uuid "88ce6c3f-0dfa-4878-999b-9da7c824795c")
-		)
-		(pin "48"
-			(uuid "e2e3e034-4494-4ba1-97cf-36a6b6cb6ae2")
-		)
-		(pin "36"
-			(uuid "23f128f7-01c1-44aa-b66a-5b425c0be9b2")
-		)
-		(pin "61"
-			(uuid "bb19fa84-b5b0-4ee7-b4dc-deabcbdcea89")
-		)
-		(pin "26"
-			(uuid "dcd5cb39-77b4-4255-a561-cb7b01992028")
-		)
-		(pin "57"
-			(uuid "d59c9378-6bca-40d6-80d8-1702717d6af9")
-		)
-		(pin "25"
-			(uuid "68f2240f-2cae-4e62-aeb9-6fd1e6cf3a76")
-		)
-		(pin "24"
-			(uuid "631c7bf1-dfb4-4e99-8220-7c76e8ca6d9c")
-		)
-		(pin "19"
-			(uuid "2f3a7981-2b14-4449-884a-574a6bd8274b")
-		)
-		(pin "14"
-			(uuid "a3fe4a4a-9404-4ec6-af70-e166f64cb59d")
-		)
-		(pin "45"
-			(uuid "3793c346-c80d-4c24-b535-f737410a3cb8")
-		)
-		(pin "47"
-			(uuid "31116a69-68bc-40af-bfb3-28bd89d4dd93")
-		)
-		(pin "23"
-			(uuid "efb8fe05-04f2-4816-a2f4-8a98a0229cb2")
+			(uuid "c8be3fd6-79a4-45ac-9988-fe3a44668426")
 		)
 		(pin "38"
-			(uuid "880e307f-c39b-4ee7-95cc-4d53ece51a5a")
+			(uuid "8d952036-98cc-40bd-869f-3ec72995fca1")
+		)
+		(pin "44"
+			(uuid "ecc6549c-bafc-4c2f-9378-f9d954c1e566")
+		)
+		(pin "43"
+			(uuid "3653fb09-a3ad-4c77-9e0c-9d669b5a6db3")
+		)
+		(pin "28"
+			(uuid "b1f0561b-2d9a-4b14-894d-cd6b5a5aeb05")
+		)
+		(pin "36"
+			(uuid "b050ab18-29e8-4ab8-b25f-b877dc149198")
+		)
+		(pin "37"
+			(uuid "0a57f56d-6356-4ade-aa39-7e4b2c6ab6d2")
+		)
+		(pin "51"
+			(uuid "c1ef0827-a194-4f60-8498-20279656c9af")
+		)
+		(pin "52"
+			(uuid "ebb316ca-514a-4e5b-91fe-25b56cdd7ff3")
+		)
+		(pin "21"
+			(uuid "f0d5505a-d6ed-4855-8283-e12fb44d2c82")
+		)
+		(pin "61"
+			(uuid "a71ff2f4-7660-4887-aa27-c54644caa564")
+		)
+		(pin "49"
+			(uuid "45733aa5-f25a-410c-97d0-c33b3cc03fcb")
+		)
+		(pin "42"
+			(uuid "746ea163-afcd-4f43-8d70-80532436f38a")
+		)
+		(pin "47"
+			(uuid "17cd4a0b-d6e9-4885-8025-9f4c85be9679")
+		)
+		(pin "33"
+			(uuid "3ad4f58e-6ea0-429c-999a-4410fb5b319e")
+		)
+		(pin "55"
+			(uuid "5a5f36df-8ef2-4be4-a145-579262fa3305")
 		)
 		(pin "34"
-			(uuid "7993c2ee-60c0-416a-8e8c-e9b671b02b26")
+			(uuid "f2f61058-2614-4b65-84b6-baa5969039d6")
+		)
+		(pin "25"
+			(uuid "e712529a-246e-4c14-9249-79ea8f43b3e0")
+		)
+		(pin "19"
+			(uuid "363d62ae-10c2-46e5-a677-21b7a99cdef4")
+		)
+		(pin "27"
+			(uuid "5412c74b-81ed-42be-9f50-aea4a9358d5a")
+		)
+		(pin "48"
+			(uuid "0c2897e8-b087-4437-a7a8-74078826ddbb")
+		)
+		(pin "11"
+			(uuid "62a2dbef-8454-41f9-8ac0-8e8eb538edbf")
+		)
+		(pin "64"
+			(uuid "4a13d463-ff78-4b95-9442-30cd61766ca7")
+		)
+		(pin "29"
+			(uuid "e3a3d58f-1c73-472f-9a71-79972998811e")
+		)
+		(pin "30"
+			(uuid "d051640f-d5e5-4e80-a006-78c9890138fb")
+		)
+		(pin "62"
+			(uuid "179c987b-9950-473d-8abb-0a39a1500f33")
+		)
+		(pin "1"
+			(uuid "cf842c72-c912-45cb-8e01-1397c1aae9a4")
+		)
+		(pin "26"
+			(uuid "b7b5b400-3652-4529-8725-7cbbb15eaa95")
+		)
+		(pin "14"
+			(uuid "12e3b3fc-6585-460c-a7bc-a1433281d094")
+		)
+		(pin "15"
+			(uuid "98dd9d8c-fb75-493c-a815-888d4928a4b2")
+		)
+		(pin "63"
+			(uuid "40e2dcf7-dfaf-41df-b2ef-ee1acd62c2ec")
+		)
+		(pin "12"
+			(uuid "de3b0f0f-5492-4b94-b984-858b006af15a")
+		)
+		(pin "32"
+			(uuid "7e55bfbc-d236-4417-a999-049c2b705bd6")
+		)
+		(pin "18"
+			(uuid "b5d9194c-d6dc-45a2-b2da-5690d13c7202")
+		)
+		(pin "58"
+			(uuid "084fbefe-595f-4c02-a0bf-64efc0642693")
+		)
+		(pin "35"
+			(uuid "1c1cbe36-af3f-47f6-9ddd-54323c4df4d9")
+		)
+		(pin "56"
+			(uuid "f25909fb-c3c0-46d1-b95a-e1b4d325eb97")
+		)
+		(pin "57"
+			(uuid "b68dbfa7-d6ab-446d-b4e2-6412f2ccb368")
+		)
+		(pin "31"
+			(uuid "e35fd29a-65bf-41f2-b040-abaf962c5a9b")
+		)
+		(pin "20"
+			(uuid "328922e0-8bf3-4e7c-96f9-bbe396367f6c")
+		)
+		(pin "22"
+			(uuid "2aa244db-208d-4f5b-b40d-da4280d1c9fe")
+		)
+		(pin "41"
+			(uuid "986d9565-aa5a-428f-a4ba-e3b393e67751")
+		)
+		(pin "7"
+			(uuid "4c398f71-32d1-4ee3-9947-64052cc7f551")
+		)
+		(pin "9"
+			(uuid "3e53240e-c658-4da9-856c-901e51ef7c8d")
+		)
+		(pin "5"
+			(uuid "9b33b268-5d5a-4519-a2d7-ea68be9a6985")
+		)
+		(pin "46"
+			(uuid "d7861f40-acfc-4633-9dac-b1617633bffe")
+		)
+		(pin "59"
+			(uuid "240da89b-65b0-4d0d-9fea-39e013f649cb")
+		)
+		(pin "10"
+			(uuid "b8bb5d4f-4b34-48ac-93e3-7b3dbcde15e2")
+		)
+		(pin "8"
+			(uuid "eb3b4bc7-960c-4221-acca-f4c70278444f")
+		)
+		(pin "6"
+			(uuid "89cc6e37-f046-46b9-b0ff-2d79c317546f")
+		)
+		(pin "2"
+			(uuid "82f856f9-e53e-45a2-b943-9226d3f2e892")
+		)
+		(pin "4"
+			(uuid "d8a5f0fc-b6f7-47b1-bc21-a20cd99a54fa")
+		)
+		(pin "3"
+			(uuid "d3251804-c5e8-42d8-bf19-05b5394e553a")
+		)
+		(pin "13"
+			(uuid "52c105d6-0b07-416d-9c3d-a6015ef7541d")
+		)
+		(pin "40"
+			(uuid "cc39d8f8-5992-4b4c-aa99-781c34ef7c52")
+		)
+		(pin "17"
+			(uuid "eb40a3c3-f1f5-48a4-b609-4c735ec7afcd")
+		)
+		(pin "23"
+			(uuid "a374c159-12db-49e7-ad3d-9b6cc962cd6c")
+		)
+		(pin "24"
+			(uuid "63538d52-7c10-470d-9f05-046581ebe5c2")
+		)
+		(pin "53"
+			(uuid "3f86e98c-8b91-48a4-ab77-d33778a31a34")
+		)
+		(pin "16"
+			(uuid "2115886b-d89a-4060-a792-ff7b8245b16d")
+		)
+		(pin "39"
+			(uuid "e2175ddc-4d0c-45fb-9c6a-53d1ba8262a5")
+		)
+		(pin "54"
+			(uuid "735cd923-49d7-4f92-a07c-0427a18291ba")
+		)
+		(pin "45"
+			(uuid "371a73d8-f538-4504-8168-e8a51bf6be7a")
+		)
+		(pin "60"
+			(uuid "334bcef5-a5a4-40ac-83bf-e7d4a1080c92")
 		)
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
 					(reference "U2")
-					(unit 2)
+					(unit 5)
 				)
 			)
 		)
@@ -6764,303 +6762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
-		(at 156.21 104.14 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b4aa3b7-8169-41b4-87a8-afd432c0817e")
-		(property "Reference" "U2"
-			(at 170.18 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FS32K144HAT0MLHT"
-			(at 170.18 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 167.894 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
-			(at 154.686 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
-			(at 201.676 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 153.924 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 197.612 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "LQFP-64 NXP"
-			(at 209.042 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 171.958 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "fbb87a14-094f-490e-91ed-b29b28354c5d")
-		)
-		(pin "53"
-			(uuid "655ab1fa-8797-4d56-952f-c4cab1da2dfc")
-		)
-		(pin "40"
-			(uuid "eff452a9-341f-4113-aeb2-a2e7b89dbca1")
-		)
-		(pin "4"
-			(uuid "1f7d38c7-cf38-4893-b314-4c8eb09d2f0b")
-		)
-		(pin "39"
-			(uuid "982b525e-8f56-4c5d-8ed6-fc1434ce451a")
-		)
-		(pin "5"
-			(uuid "85fcfa7b-0c9d-47d3-ab19-6c33662aaec7")
-		)
-		(pin "41"
-			(uuid "c7618014-5c7f-4145-bda4-bf2d00f5b68a")
-		)
-		(pin "54"
-			(uuid "80047ac7-ec1c-4b95-8e83-99685d7aa739")
-		)
-		(pin "59"
-			(uuid "199a837d-5c39-4f04-9a2e-e215586da741")
-		)
-		(pin "6"
-			(uuid "9cb0ac5c-6a0e-4a71-a72e-804532dfc871")
-		)
-		(pin "7"
-			(uuid "5bea4437-69b2-4773-9e68-9bfbf97b2bf8")
-		)
-		(pin "9"
-			(uuid "ad0b223a-3c78-4224-98b1-0c2ab37f12ee")
-		)
-		(pin "8"
-			(uuid "583c9884-d869-407b-a55f-b1643455b596")
-		)
-		(pin "60"
-			(uuid "f0ca100e-ef8a-47f1-85bd-e88272d23aad")
-		)
-		(pin "28"
-			(uuid "e4525a3f-4664-4cb0-83a1-449adfc0c667")
-		)
-		(pin "29"
-			(uuid "7129a175-7e1f-4852-8323-6d92156083ca")
-		)
-		(pin "16"
-			(uuid "3e03514a-ce88-44f9-a666-780dc63944e1")
-		)
-		(pin "1"
-			(uuid "deaecb67-e0f9-4e05-ac66-baff86788f72")
-		)
-		(pin "35"
-			(uuid "a2355206-7071-4331-9fe2-202956edff3d")
-		)
-		(pin "20"
-			(uuid "5ddffcca-1833-4e44-b3e0-c2fe4f6981b8")
-		)
-		(pin "11"
-			(uuid "c40969e9-9fe4-4fc4-9a46-2c0c0b395959")
-		)
-		(pin "27"
-			(uuid "e916368f-9e15-43e5-9c2d-95da72127632")
-		)
-		(pin "49"
-			(uuid "a031f10e-94ae-47e0-9d4d-ca152a338cfb")
-		)
-		(pin "18"
-			(uuid "b77309b9-66ee-464d-8b46-a5502782c093")
-		)
-		(pin "51"
-			(uuid "5ba0b6e7-0831-4d6a-b7ee-f46a578ea440")
-		)
-		(pin "62"
-			(uuid "58a4531e-460b-4e1a-8ae7-70c9c38ecf44")
-		)
-		(pin "55"
-			(uuid "7ae73fb3-6f98-466a-bfc1-efa299faef85")
-		)
-		(pin "37"
-			(uuid "a74d9b4f-fce5-4dde-ac56-87a0ae40f0e6")
-		)
-		(pin "64"
-			(uuid "4cd0556d-7961-4eb8-ac6e-8104cb225d58")
-		)
-		(pin "32"
-			(uuid "866e8894-7099-4631-aa15-aae62ff63eaa")
-		)
-		(pin "33"
-			(uuid "a0c87f83-1fe2-4213-80fe-454d3153a306")
-		)
-		(pin "42"
-			(uuid "89c93a58-e848-4918-a32a-8da75dd2d1d8")
-		)
-		(pin "52"
-			(uuid "50629eb3-64cf-45b5-a64f-86a4c7c8b17a")
-		)
-		(pin "21"
-			(uuid "5a832d51-29fe-45c5-ac28-f79703dc9b9c")
-		)
-		(pin "22"
-			(uuid "c5381ad0-b189-4248-904f-4ebcd6a616ed")
-		)
-		(pin "30"
-			(uuid "9617acd7-b89a-4d19-8bbc-5082056bbc1a")
-		)
-		(pin "31"
-			(uuid "936fad2d-e7cd-4e6c-bcaa-d9171e194ea9")
-		)
-		(pin "46"
-			(uuid "7d34fc93-7329-4732-9b2c-6afe7aa3d118")
-		)
-		(pin "13"
-			(uuid "3fd66aad-7bb4-407f-9b41-753b4844aed1")
-		)
-		(pin "58"
-			(uuid "777930d0-2727-43d0-95bf-8e2e3316e17f")
-		)
-		(pin "43"
-			(uuid "79e4a29a-7976-4bbd-8e38-8c36dcc3d636")
-		)
-		(pin "17"
-			(uuid "6c39c3f6-90f7-47e7-8631-aa8e5fafd42b")
-		)
-		(pin "44"
-			(uuid "af459ee4-7d5e-4486-acbc-8667b79999ac")
-		)
-		(pin "12"
-			(uuid "cfa836b3-7f96-46c0-8266-adddb16eb1bb")
-		)
-		(pin "3"
-			(uuid "e74f8005-2dcd-4e27-a503-8ab5fed053aa")
-		)
-		(pin "2"
-			(uuid "966dad54-4800-45ff-a312-dfba34fc70a5")
-		)
-		(pin "50"
-			(uuid "90c3a534-b02b-44a6-a074-788e6f355051")
-		)
-		(pin "56"
-			(uuid "56c79379-f768-4bb4-a934-86cc181f5f32")
-		)
-		(pin "63"
-			(uuid "8c03d7fb-e5af-4ae4-91fb-08d52379a6b2")
-		)
-		(pin "15"
-			(uuid "88ce6c3f-0dfa-4878-999b-9da7c824795d")
-		)
-		(pin "48"
-			(uuid "e2e3e034-4494-4ba1-97cf-36a6b6cb6ae3")
-		)
-		(pin "36"
-			(uuid "23f128f7-01c1-44aa-b66a-5b425c0be9b3")
-		)
-		(pin "61"
-			(uuid "bb19fa84-b5b0-4ee7-b4dc-deabcbdcea8a")
-		)
-		(pin "26"
-			(uuid "dcd5cb39-77b4-4255-a561-cb7b01992029")
-		)
-		(pin "57"
-			(uuid "d59c9378-6bca-40d6-80d8-1702717d6afa")
-		)
-		(pin "25"
-			(uuid "68f2240f-2cae-4e62-aeb9-6fd1e6cf3a77")
-		)
-		(pin "24"
-			(uuid "631c7bf1-dfb4-4e99-8220-7c76e8ca6d9d")
-		)
-		(pin "19"
-			(uuid "2f3a7981-2b14-4449-884a-574a6bd8274c")
-		)
-		(pin "14"
-			(uuid "a3fe4a4a-9404-4ec6-af70-e166f64cb59e")
-		)
-		(pin "45"
-			(uuid "3793c346-c80d-4c24-b535-f737410a3cb9")
-		)
-		(pin "47"
-			(uuid "31116a69-68bc-40af-bfb3-28bd89d4dd94")
-		)
-		(pin "23"
-			(uuid "efb8fe05-04f2-4816-a2f4-8a98a0229cb3")
-		)
-		(pin "38"
-			(uuid "880e307f-c39b-4ee7-95cc-4d53ece51a5b")
-		)
-		(pin "34"
-			(uuid "7993c2ee-60c0-416a-8e8c-e9b671b02b27")
-		)
-		(instances
-			(project "Mini-K1-64"
-				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
-					(reference "U2")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
 		(at 198.12 48.26 0)
 		(unit 1)
@@ -7246,7 +6947,7 @@
 		(dnp no)
 		(uuid "920ed3e3-06ca-4189-a702-1d8a06755270")
 		(property "Reference" "R5"
-			(at 55.118 121.92 90)
+			(at 52.07 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +6955,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 57.912 121.92 90)
+			(at 56.134 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,6 +7000,303 @@
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
 					(reference "R5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
+		(at 156.21 62.23 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e32eabc-903b-49ab-ad9d-cd0b83f642df")
+		(property "Reference" "U2"
+			(at 170.18 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS32K144HAT0MLHT"
+			(at 170.18 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(at 167.894 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
+			(at 154.686 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
+			(at 201.676 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NXP Semiconductors"
+			(at 153.924 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 197.612 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "LQFP-64 NXP"
+			(at 209.042 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 171.958 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "50"
+			(uuid "c8be3fd6-79a4-45ac-9988-fe3a44668426")
+		)
+		(pin "38"
+			(uuid "8d952036-98cc-40bd-869f-3ec72995fca1")
+		)
+		(pin "44"
+			(uuid "ecc6549c-bafc-4c2f-9378-f9d954c1e566")
+		)
+		(pin "43"
+			(uuid "3653fb09-a3ad-4c77-9e0c-9d669b5a6db3")
+		)
+		(pin "28"
+			(uuid "b1f0561b-2d9a-4b14-894d-cd6b5a5aeb05")
+		)
+		(pin "36"
+			(uuid "b050ab18-29e8-4ab8-b25f-b877dc149198")
+		)
+		(pin "37"
+			(uuid "0a57f56d-6356-4ade-aa39-7e4b2c6ab6d2")
+		)
+		(pin "51"
+			(uuid "c1ef0827-a194-4f60-8498-20279656c9af")
+		)
+		(pin "52"
+			(uuid "ebb316ca-514a-4e5b-91fe-25b56cdd7ff3")
+		)
+		(pin "21"
+			(uuid "f0d5505a-d6ed-4855-8283-e12fb44d2c82")
+		)
+		(pin "61"
+			(uuid "a71ff2f4-7660-4887-aa27-c54644caa564")
+		)
+		(pin "49"
+			(uuid "45733aa5-f25a-410c-97d0-c33b3cc03fcb")
+		)
+		(pin "42"
+			(uuid "746ea163-afcd-4f43-8d70-80532436f38a")
+		)
+		(pin "47"
+			(uuid "17cd4a0b-d6e9-4885-8025-9f4c85be9679")
+		)
+		(pin "33"
+			(uuid "3ad4f58e-6ea0-429c-999a-4410fb5b319e")
+		)
+		(pin "55"
+			(uuid "5a5f36df-8ef2-4be4-a145-579262fa3305")
+		)
+		(pin "34"
+			(uuid "f2f61058-2614-4b65-84b6-baa5969039d6")
+		)
+		(pin "25"
+			(uuid "e712529a-246e-4c14-9249-79ea8f43b3e0")
+		)
+		(pin "19"
+			(uuid "363d62ae-10c2-46e5-a677-21b7a99cdef4")
+		)
+		(pin "27"
+			(uuid "5412c74b-81ed-42be-9f50-aea4a9358d5a")
+		)
+		(pin "48"
+			(uuid "0c2897e8-b087-4437-a7a8-74078826ddbb")
+		)
+		(pin "11"
+			(uuid "62a2dbef-8454-41f9-8ac0-8e8eb538edbf")
+		)
+		(pin "64"
+			(uuid "4a13d463-ff78-4b95-9442-30cd61766ca7")
+		)
+		(pin "29"
+			(uuid "e3a3d58f-1c73-472f-9a71-79972998811e")
+		)
+		(pin "30"
+			(uuid "d051640f-d5e5-4e80-a006-78c9890138fb")
+		)
+		(pin "62"
+			(uuid "179c987b-9950-473d-8abb-0a39a1500f33")
+		)
+		(pin "1"
+			(uuid "cf842c72-c912-45cb-8e01-1397c1aae9a4")
+		)
+		(pin "26"
+			(uuid "b7b5b400-3652-4529-8725-7cbbb15eaa95")
+		)
+		(pin "14"
+			(uuid "12e3b3fc-6585-460c-a7bc-a1433281d094")
+		)
+		(pin "15"
+			(uuid "98dd9d8c-fb75-493c-a815-888d4928a4b2")
+		)
+		(pin "63"
+			(uuid "40e2dcf7-dfaf-41df-b2ef-ee1acd62c2ec")
+		)
+		(pin "12"
+			(uuid "de3b0f0f-5492-4b94-b984-858b006af15a")
+		)
+		(pin "32"
+			(uuid "7e55bfbc-d236-4417-a999-049c2b705bd6")
+		)
+		(pin "18"
+			(uuid "b5d9194c-d6dc-45a2-b2da-5690d13c7202")
+		)
+		(pin "58"
+			(uuid "084fbefe-595f-4c02-a0bf-64efc0642693")
+		)
+		(pin "35"
+			(uuid "1c1cbe36-af3f-47f6-9ddd-54323c4df4d9")
+		)
+		(pin "56"
+			(uuid "f25909fb-c3c0-46d1-b95a-e1b4d325eb97")
+		)
+		(pin "57"
+			(uuid "b68dbfa7-d6ab-446d-b4e2-6412f2ccb368")
+		)
+		(pin "31"
+			(uuid "e35fd29a-65bf-41f2-b040-abaf962c5a9b")
+		)
+		(pin "20"
+			(uuid "328922e0-8bf3-4e7c-96f9-bbe396367f6c")
+		)
+		(pin "22"
+			(uuid "2aa244db-208d-4f5b-b40d-da4280d1c9fe")
+		)
+		(pin "41"
+			(uuid "986d9565-aa5a-428f-a4ba-e3b393e67751")
+		)
+		(pin "7"
+			(uuid "4c398f71-32d1-4ee3-9947-64052cc7f551")
+		)
+		(pin "9"
+			(uuid "3e53240e-c658-4da9-856c-901e51ef7c8d")
+		)
+		(pin "5"
+			(uuid "9b33b268-5d5a-4519-a2d7-ea68be9a6985")
+		)
+		(pin "46"
+			(uuid "d7861f40-acfc-4633-9dac-b1617633bffe")
+		)
+		(pin "59"
+			(uuid "240da89b-65b0-4d0d-9fea-39e013f649cb")
+		)
+		(pin "10"
+			(uuid "b8bb5d4f-4b34-48ac-93e3-7b3dbcde15e2")
+		)
+		(pin "8"
+			(uuid "eb3b4bc7-960c-4221-acca-f4c70278444f")
+		)
+		(pin "6"
+			(uuid "89cc6e37-f046-46b9-b0ff-2d79c317546f")
+		)
+		(pin "2"
+			(uuid "82f856f9-e53e-45a2-b943-9226d3f2e892")
+		)
+		(pin "4"
+			(uuid "d8a5f0fc-b6f7-47b1-bc21-a20cd99a54fa")
+		)
+		(pin "3"
+			(uuid "d3251804-c5e8-42d8-bf19-05b5394e553a")
+		)
+		(pin "13"
+			(uuid "52c105d6-0b07-416d-9c3d-a6015ef7541d")
+		)
+		(pin "40"
+			(uuid "cc39d8f8-5992-4b4c-aa99-781c34ef7c52")
+		)
+		(pin "17"
+			(uuid "eb40a3c3-f1f5-48a4-b609-4c735ec7afcd")
+		)
+		(pin "23"
+			(uuid "a374c159-12db-49e7-ad3d-9b6cc962cd6c")
+		)
+		(pin "24"
+			(uuid "63538d52-7c10-470d-9f05-046581ebe5c2")
+		)
+		(pin "53"
+			(uuid "3f86e98c-8b91-48a4-ab77-d33778a31a34")
+		)
+		(pin "16"
+			(uuid "2115886b-d89a-4060-a792-ff7b8245b16d")
+		)
+		(pin "39"
+			(uuid "e2175ddc-4d0c-45fb-9c6a-53d1ba8262a5")
+		)
+		(pin "54"
+			(uuid "735cd923-49d7-4f92-a07c-0427a18291ba")
+		)
+		(pin "45"
+			(uuid "371a73d8-f538-4504-8168-e8a51bf6be7a")
+		)
+		(pin "60"
+			(uuid "334bcef5-a5a4-40ac-83bf-e7d4a1080c92")
+		)
+		(instances
+			(project "Mini-K1-64"
+				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
+					(reference "U2")
+					(unit 4)
 				)
 			)
 		)
@@ -7517,7 +7515,7 @@
 		(dnp no)
 		(uuid "c312080a-5b14-4c3f-ac29-41a038e7730f")
 		(property "Reference" "R14"
-			(at 55.118 119.38 90)
+			(at 51.308 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +7523,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 57.912 119.38 90)
+			(at 56.134 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,6 +7568,306 @@
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
 					(reference "R14")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
+		(at 91.44 147.32 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d148dc-f9ff-4e87-b353-300f100b07f7")
+		(property "Reference" "U2"
+			(at 105.41 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS32K144HAT0MLHT"
+			(at 105.41 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(at 103.124 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
+			(at 89.916 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
+			(at 136.906 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NXP Semiconductors"
+			(at 89.154 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 132.842 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "LQFP-64 NXP"
+			(at 144.272 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 107.188 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "50"
+			(uuid "c8be3fd6-79a4-45ac-9988-fe3a44668426")
+		)
+		(pin "38"
+			(uuid "8d952036-98cc-40bd-869f-3ec72995fca1")
+		)
+		(pin "44"
+			(uuid "ecc6549c-bafc-4c2f-9378-f9d954c1e566")
+		)
+		(pin "43"
+			(uuid "3653fb09-a3ad-4c77-9e0c-9d669b5a6db3")
+		)
+		(pin "28"
+			(uuid "b1f0561b-2d9a-4b14-894d-cd6b5a5aeb05")
+		)
+		(pin "36"
+			(uuid "b050ab18-29e8-4ab8-b25f-b877dc149198")
+		)
+		(pin "37"
+			(uuid "0a57f56d-6356-4ade-aa39-7e4b2c6ab6d2")
+		)
+		(pin "51"
+			(uuid "c1ef0827-a194-4f60-8498-20279656c9af")
+		)
+		(pin "52"
+			(uuid "ebb316ca-514a-4e5b-91fe-25b56cdd7ff3")
+		)
+		(pin "21"
+			(uuid "f0d5505a-d6ed-4855-8283-e12fb44d2c82")
+			(alternate "LPUART0_RX")
+		)
+		(pin "61"
+			(uuid "a71ff2f4-7660-4887-aa27-c54644caa564")
+		)
+		(pin "49"
+			(uuid "45733aa5-f25a-410c-97d0-c33b3cc03fcb")
+		)
+		(pin "42"
+			(uuid "746ea163-afcd-4f43-8d70-80532436f38a")
+		)
+		(pin "47"
+			(uuid "17cd4a0b-d6e9-4885-8025-9f4c85be9679")
+		)
+		(pin "33"
+			(uuid "3ad4f58e-6ea0-429c-999a-4410fb5b319e")
+		)
+		(pin "55"
+			(uuid "5a5f36df-8ef2-4be4-a145-579262fa3305")
+		)
+		(pin "34"
+			(uuid "f2f61058-2614-4b65-84b6-baa5969039d6")
+		)
+		(pin "25"
+			(uuid "e712529a-246e-4c14-9249-79ea8f43b3e0")
+		)
+		(pin "19"
+			(uuid "363d62ae-10c2-46e5-a677-21b7a99cdef4")
+		)
+		(pin "27"
+			(uuid "5412c74b-81ed-42be-9f50-aea4a9358d5a")
+		)
+		(pin "48"
+			(uuid "0c2897e8-b087-4437-a7a8-74078826ddbb")
+		)
+		(pin "11"
+			(uuid "62a2dbef-8454-41f9-8ac0-8e8eb538edbf")
+		)
+		(pin "64"
+			(uuid "4a13d463-ff78-4b95-9442-30cd61766ca7")
+		)
+		(pin "29"
+			(uuid "e3a3d58f-1c73-472f-9a71-79972998811e")
+		)
+		(pin "30"
+			(uuid "d051640f-d5e5-4e80-a006-78c9890138fb")
+		)
+		(pin "62"
+			(uuid "179c987b-9950-473d-8abb-0a39a1500f33")
+			(alternate "SWD_CLK")
+		)
+		(pin "1"
+			(uuid "cf842c72-c912-45cb-8e01-1397c1aae9a4")
+		)
+		(pin "26"
+			(uuid "b7b5b400-3652-4529-8725-7cbbb15eaa95")
+		)
+		(pin "14"
+			(uuid "12e3b3fc-6585-460c-a7bc-a1433281d094")
+		)
+		(pin "15"
+			(uuid "98dd9d8c-fb75-493c-a815-888d4928a4b2")
+		)
+		(pin "63"
+			(uuid "40e2dcf7-dfaf-41df-b2ef-ee1acd62c2ec")
+		)
+		(pin "12"
+			(uuid "de3b0f0f-5492-4b94-b984-858b006af15a")
+		)
+		(pin "32"
+			(uuid "7e55bfbc-d236-4417-a999-049c2b705bd6")
+		)
+		(pin "18"
+			(uuid "b5d9194c-d6dc-45a2-b2da-5690d13c7202")
+		)
+		(pin "58"
+			(uuid "084fbefe-595f-4c02-a0bf-64efc0642693")
+		)
+		(pin "35"
+			(uuid "1c1cbe36-af3f-47f6-9ddd-54323c4df4d9")
+		)
+		(pin "56"
+			(uuid "f25909fb-c3c0-46d1-b95a-e1b4d325eb97")
+		)
+		(pin "57"
+			(uuid "b68dbfa7-d6ab-446d-b4e2-6412f2ccb368")
+		)
+		(pin "31"
+			(uuid "e35fd29a-65bf-41f2-b040-abaf962c5a9b")
+		)
+		(pin "20"
+			(uuid "328922e0-8bf3-4e7c-96f9-bbe396367f6c")
+			(alternate "LPUART0_TX")
+		)
+		(pin "22"
+			(uuid "2aa244db-208d-4f5b-b40d-da4280d1c9fe")
+		)
+		(pin "41"
+			(uuid "986d9565-aa5a-428f-a4ba-e3b393e67751")
+		)
+		(pin "7"
+			(uuid "4c398f71-32d1-4ee3-9947-64052cc7f551")
+		)
+		(pin "9"
+			(uuid "3e53240e-c658-4da9-856c-901e51ef7c8d")
+		)
+		(pin "5"
+			(uuid "9b33b268-5d5a-4519-a2d7-ea68be9a6985")
+		)
+		(pin "46"
+			(uuid "d7861f40-acfc-4633-9dac-b1617633bffe")
+		)
+		(pin "59"
+			(uuid "240da89b-65b0-4d0d-9fea-39e013f649cb")
+		)
+		(pin "10"
+			(uuid "b8bb5d4f-4b34-48ac-93e3-7b3dbcde15e2")
+		)
+		(pin "8"
+			(uuid "eb3b4bc7-960c-4221-acca-f4c70278444f")
+		)
+		(pin "6"
+			(uuid "89cc6e37-f046-46b9-b0ff-2d79c317546f")
+		)
+		(pin "2"
+			(uuid "82f856f9-e53e-45a2-b943-9226d3f2e892")
+		)
+		(pin "4"
+			(uuid "d8a5f0fc-b6f7-47b1-bc21-a20cd99a54fa")
+		)
+		(pin "3"
+			(uuid "d3251804-c5e8-42d8-bf19-05b5394e553a")
+		)
+		(pin "13"
+			(uuid "52c105d6-0b07-416d-9c3d-a6015ef7541d")
+		)
+		(pin "40"
+			(uuid "cc39d8f8-5992-4b4c-aa99-781c34ef7c52")
+		)
+		(pin "17"
+			(uuid "eb40a3c3-f1f5-48a4-b609-4c735ec7afcd")
+		)
+		(pin "23"
+			(uuid "a374c159-12db-49e7-ad3d-9b6cc962cd6c")
+		)
+		(pin "24"
+			(uuid "63538d52-7c10-470d-9f05-046581ebe5c2")
+		)
+		(pin "53"
+			(uuid "3f86e98c-8b91-48a4-ab77-d33778a31a34")
+		)
+		(pin "16"
+			(uuid "2115886b-d89a-4060-a792-ff7b8245b16d")
+		)
+		(pin "39"
+			(uuid "e2175ddc-4d0c-45fb-9c6a-53d1ba8262a5")
+		)
+		(pin "54"
+			(uuid "735cd923-49d7-4f92-a07c-0427a18291ba")
+		)
+		(pin "45"
+			(uuid "371a73d8-f538-4504-8168-e8a51bf6be7a")
+		)
+		(pin "60"
+			(uuid "334bcef5-a5a4-40ac-83bf-e7d4a1080c92")
+		)
+		(instances
+			(project "Mini-K1-64"
+				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -7639,306 +7937,6 @@
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
-		(at 91.44 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db790728-dee9-4dcc-91d3-6fb7762661c2")
-		(property "Reference" "U2"
-			(at 105.41 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FS32K144HAT0MLHT"
-			(at 105.41 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 103.124 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
-			(at 89.916 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
-			(at 136.906 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 89.154 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 132.842 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "LQFP-64 NXP"
-			(at 144.272 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 107.188 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "62"
-			(uuid "ebaa8913-30b1-4012-8681-8e832a72f339")
-		)
-		(pin "1"
-			(uuid "cd7b20e6-0915-46f0-a297-a0ed2914b7a4")
-		)
-		(pin "14"
-			(uuid "6d6ff08d-70ba-424d-9c4f-5ed58738ffa0")
-		)
-		(pin "25"
-			(uuid "505a2b75-8293-40e5-a32c-67cf694ebdd1")
-		)
-		(pin "48"
-			(uuid "7a9e77c7-0484-49fa-9894-37f08436411a")
-		)
-		(pin "21"
-			(uuid "d1a4c08e-dc79-43e6-996d-7202f296d6fe")
-		)
-		(pin "28"
-			(uuid "255711f0-2b06-41bc-a3cb-816ad99a85bc")
-		)
-		(pin "31"
-			(uuid "22761471-dd59-4944-a549-2404f9f81c29")
-		)
-		(pin "47"
-			(uuid "071db7a5-5cda-40d9-9c2f-947b8a2df76a")
-		)
-		(pin "56"
-			(uuid "09518244-8d0a-41f9-a3a8-87943a49e953")
-		)
-		(pin "37"
-			(uuid "ac00cc41-763d-4d70-8e66-36812f197001")
-		)
-		(pin "55"
-			(uuid "99f3381a-9153-4d6f-918d-713026d7fd5c")
-		)
-		(pin "38"
-			(uuid "8f9d356d-166f-4b05-9d8c-a703cbcc34a0")
-		)
-		(pin "49"
-			(uuid "345505b5-ff98-4948-83ae-b1027b5cdb25")
-		)
-		(pin "57"
-			(uuid "8a88557a-83d4-4bca-82c4-a3ac81290af6")
-		)
-		(pin "58"
-			(uuid "8f75f1f3-852e-4109-ae87-d913031aa4f7")
-			(alternate "TRACE_SWO")
-		)
-		(pin "12"
-			(uuid "991aca29-e4a7-451a-a06b-c7e3f504d0cd")
-		)
-		(pin "32"
-			(uuid "66b1a5ae-74ab-4b12-9b6b-8bcd1a082303")
-		)
-		(pin "63"
-			(uuid "574ef3ba-7cfa-466b-bf26-760d9bc4c63d")
-			(alternate "RESET_b")
-		)
-		(pin "33"
-			(uuid "5ab190cf-029a-43c7-981b-4488e5fd0e8b")
-		)
-		(pin "42"
-			(uuid "8205f5f9-3ee4-444e-a63e-29e64ead03b6")
-		)
-		(pin "43"
-			(uuid "f3f240d6-0831-41b3-8b64-97cc8d5fb496")
-		)
-		(pin "11"
-			(uuid "69c40db3-9ade-4728-a0c2-d8d83eecec25")
-		)
-		(pin "20"
-			(uuid "0359db1a-2a45-4a7b-8d92-ed5bf7ea03e2")
-		)
-		(pin "26"
-			(uuid "bec04170-da4b-4445-be85-99d64a09c17f")
-		)
-		(pin "44"
-			(uuid "da5445bf-33ae-4302-855a-ff966f049c13")
-		)
-		(pin "35"
-			(uuid "c8d797fc-fd17-4725-abf8-2daaa6f62782")
-		)
-		(pin "64"
-			(uuid "2eff773f-d787-4024-9243-9a508276b95f")
-			(alternate "SWD_DIO")
-		)
-		(pin "29"
-			(uuid "6b7f3346-ce83-4693-b92f-1c35a397eb7e")
-		)
-		(pin "50"
-			(uuid "b5f7bb23-1006-45e2-bc39-acd3928126e2")
-		)
-		(pin "34"
-			(uuid "18662eba-2bec-4e61-998c-e648b18f1dc1")
-		)
-		(pin "27"
-			(uuid "1a29abcf-cf22-48c1-884e-3806a1ea1996")
-		)
-		(pin "30"
-			(uuid "85ed795c-0035-476c-84f2-0b6581720a3b")
-		)
-		(pin "36"
-			(uuid "82468c8a-3807-498a-a4c3-6a2d55b85a3a")
-		)
-		(pin "51"
-			(uuid "8c408ffe-5f87-4d4e-872e-7d7c4cf104cc")
-		)
-		(pin "52"
-			(uuid "cb947aa2-181e-41ef-9071-9374283fc166")
-		)
-		(pin "18"
-			(uuid "fc77e0f5-6fff-4cfd-857c-0467d8996a55")
-		)
-		(pin "19"
-			(uuid "f0507ea7-3b3f-4249-8a0c-b4c2631d1b5f")
-		)
-		(pin "61"
-			(uuid "405e3882-4c33-40ee-a4c0-5c35c86c68c3")
-		)
-		(pin "24"
-			(uuid "289eb8ca-79e3-49d7-a99f-56125462bbd7")
-		)
-		(pin "39"
-			(uuid "d024844e-9b95-4894-b5fe-74fc2b21e901")
-		)
-		(pin "4"
-			(uuid "a5a92f48-a8e9-4e87-83b2-610fda4d1ff6")
-		)
-		(pin "45"
-			(uuid "5196ef5f-06c1-4ee8-988f-ac36d8611a4d")
-		)
-		(pin "5"
-			(uuid "38913572-30b3-4a9d-a4d6-5a88148f1b74")
-		)
-		(pin "6"
-			(uuid "fbcbd71e-9ac6-4b72-8c70-4cf7a5e6b8e0")
-		)
-		(pin "40"
-			(uuid "ecc30ddc-51dd-40cd-877a-72f961e37add")
-		)
-		(pin "53"
-			(uuid "dc47290e-c459-4fe8-9d46-ff036697d3d6")
-		)
-		(pin "54"
-			(uuid "6ebbe2d0-8228-491f-8cfb-81864b59d3c5")
-		)
-		(pin "41"
-			(uuid "a4363c15-ac28-4003-ac8b-8271e9e11865")
-		)
-		(pin "7"
-			(uuid "92a745a8-3350-4708-b603-a16355f64d61")
-		)
-		(pin "10"
-			(uuid "d6e26215-d7bb-4375-a771-ac6c44eec3a7")
-		)
-		(pin "46"
-			(uuid "cd90e045-fd1b-4856-a157-84989296019c")
-		)
-		(pin "60"
-			(uuid "e2aedad8-b89a-436e-b3bf-0bf85c12a56c")
-		)
-		(pin "8"
-			(uuid "d9a01659-73d1-4184-915f-fb3f583e4f04")
-		)
-		(pin "9"
-			(uuid "ca6f158f-333c-41c5-ba53-75f671a54206")
-		)
-		(pin "15"
-			(uuid "9e15e627-8542-477b-b032-bf4ef8b39a9a")
-		)
-		(pin "59"
-			(uuid "43c922c5-57c1-4eec-a94a-a538d50c716e")
-		)
-		(pin "13"
-			(uuid "126e9bd9-2c73-4e23-85bd-bfcf5ff1d4be")
-		)
-		(pin "16"
-			(uuid "0e5751ee-282b-4651-997c-866d4a6994cd")
-		)
-		(pin "23"
-			(uuid "e758df6d-75cd-4279-afda-617dbf92f2e6")
-		)
-		(pin "2"
-			(uuid "1a6b6cf0-c661-4620-8519-d95083274bb6")
-		)
-		(pin "22"
-			(uuid "5c2d9136-4f9c-431e-ab72-1082717c47b0")
-		)
-		(pin "17"
-			(uuid "34591af7-77fe-4ef1-ad5d-fc5d041089a0")
-		)
-		(pin "3"
-			(uuid "99b00b92-8285-4da9-96d2-d9a9ef61b645")
-		)
-		(instances
-			(project "Mini-K1-64"
-				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8077,6 +8075,305 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
+		(at 91.44 104.14 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0dbbbfb-24d1-46c9-8fe9-b8dcec31b5e2")
+		(property "Reference" "U2"
+			(at 105.41 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS32K144HAT0MLHT"
+			(at 105.41 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(at 103.124 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
+			(at 89.916 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
+			(at 136.906 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NXP Semiconductors"
+			(at 89.154 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 132.842 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "LQFP-64 NXP"
+			(at 144.272 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 107.188 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "50"
+			(uuid "c8be3fd6-79a4-45ac-9988-fe3a44668426")
+		)
+		(pin "38"
+			(uuid "8d952036-98cc-40bd-869f-3ec72995fca1")
+		)
+		(pin "44"
+			(uuid "ecc6549c-bafc-4c2f-9378-f9d954c1e566")
+		)
+		(pin "43"
+			(uuid "3653fb09-a3ad-4c77-9e0c-9d669b5a6db3")
+		)
+		(pin "28"
+			(uuid "b1f0561b-2d9a-4b14-894d-cd6b5a5aeb05")
+		)
+		(pin "36"
+			(uuid "b050ab18-29e8-4ab8-b25f-b877dc149198")
+		)
+		(pin "37"
+			(uuid "0a57f56d-6356-4ade-aa39-7e4b2c6ab6d2")
+		)
+		(pin "51"
+			(uuid "c1ef0827-a194-4f60-8498-20279656c9af")
+		)
+		(pin "52"
+			(uuid "ebb316ca-514a-4e5b-91fe-25b56cdd7ff3")
+		)
+		(pin "21"
+			(uuid "f0d5505a-d6ed-4855-8283-e12fb44d2c82")
+		)
+		(pin "61"
+			(uuid "a71ff2f4-7660-4887-aa27-c54644caa564")
+		)
+		(pin "49"
+			(uuid "45733aa5-f25a-410c-97d0-c33b3cc03fcb")
+		)
+		(pin "42"
+			(uuid "746ea163-afcd-4f43-8d70-80532436f38a")
+		)
+		(pin "47"
+			(uuid "17cd4a0b-d6e9-4885-8025-9f4c85be9679")
+		)
+		(pin "33"
+			(uuid "3ad4f58e-6ea0-429c-999a-4410fb5b319e")
+		)
+		(pin "55"
+			(uuid "5a5f36df-8ef2-4be4-a145-579262fa3305")
+		)
+		(pin "34"
+			(uuid "f2f61058-2614-4b65-84b6-baa5969039d6")
+		)
+		(pin "25"
+			(uuid "e712529a-246e-4c14-9249-79ea8f43b3e0")
+		)
+		(pin "19"
+			(uuid "363d62ae-10c2-46e5-a677-21b7a99cdef4")
+		)
+		(pin "27"
+			(uuid "5412c74b-81ed-42be-9f50-aea4a9358d5a")
+		)
+		(pin "48"
+			(uuid "0c2897e8-b087-4437-a7a8-74078826ddbb")
+		)
+		(pin "11"
+			(uuid "62a2dbef-8454-41f9-8ac0-8e8eb538edbf")
+			(alternate "EXTAL")
+		)
+		(pin "64"
+			(uuid "4a13d463-ff78-4b95-9442-30cd61766ca7")
+		)
+		(pin "29"
+			(uuid "e3a3d58f-1c73-472f-9a71-79972998811e")
+		)
+		(pin "30"
+			(uuid "d051640f-d5e5-4e80-a006-78c9890138fb")
+		)
+		(pin "62"
+			(uuid "179c987b-9950-473d-8abb-0a39a1500f33")
+		)
+		(pin "1"
+			(uuid "cf842c72-c912-45cb-8e01-1397c1aae9a4")
+		)
+		(pin "26"
+			(uuid "b7b5b400-3652-4529-8725-7cbbb15eaa95")
+		)
+		(pin "14"
+			(uuid "12e3b3fc-6585-460c-a7bc-a1433281d094")
+		)
+		(pin "15"
+			(uuid "98dd9d8c-fb75-493c-a815-888d4928a4b2")
+		)
+		(pin "63"
+			(uuid "40e2dcf7-dfaf-41df-b2ef-ee1acd62c2ec")
+		)
+		(pin "12"
+			(uuid "de3b0f0f-5492-4b94-b984-858b006af15a")
+			(alternate "XTAL")
+		)
+		(pin "32"
+			(uuid "7e55bfbc-d236-4417-a999-049c2b705bd6")
+		)
+		(pin "18"
+			(uuid "b5d9194c-d6dc-45a2-b2da-5690d13c7202")
+		)
+		(pin "58"
+			(uuid "084fbefe-595f-4c02-a0bf-64efc0642693")
+		)
+		(pin "35"
+			(uuid "1c1cbe36-af3f-47f6-9ddd-54323c4df4d9")
+		)
+		(pin "56"
+			(uuid "f25909fb-c3c0-46d1-b95a-e1b4d325eb97")
+		)
+		(pin "57"
+			(uuid "b68dbfa7-d6ab-446d-b4e2-6412f2ccb368")
+		)
+		(pin "31"
+			(uuid "e35fd29a-65bf-41f2-b040-abaf962c5a9b")
+		)
+		(pin "20"
+			(uuid "328922e0-8bf3-4e7c-96f9-bbe396367f6c")
+		)
+		(pin "22"
+			(uuid "2aa244db-208d-4f5b-b40d-da4280d1c9fe")
+		)
+		(pin "41"
+			(uuid "986d9565-aa5a-428f-a4ba-e3b393e67751")
+		)
+		(pin "7"
+			(uuid "4c398f71-32d1-4ee3-9947-64052cc7f551")
+		)
+		(pin "9"
+			(uuid "3e53240e-c658-4da9-856c-901e51ef7c8d")
+		)
+		(pin "5"
+			(uuid "9b33b268-5d5a-4519-a2d7-ea68be9a6985")
+		)
+		(pin "46"
+			(uuid "d7861f40-acfc-4633-9dac-b1617633bffe")
+		)
+		(pin "59"
+			(uuid "240da89b-65b0-4d0d-9fea-39e013f649cb")
+		)
+		(pin "10"
+			(uuid "b8bb5d4f-4b34-48ac-93e3-7b3dbcde15e2")
+		)
+		(pin "8"
+			(uuid "eb3b4bc7-960c-4221-acca-f4c70278444f")
+		)
+		(pin "6"
+			(uuid "89cc6e37-f046-46b9-b0ff-2d79c317546f")
+		)
+		(pin "2"
+			(uuid "82f856f9-e53e-45a2-b943-9226d3f2e892")
+		)
+		(pin "4"
+			(uuid "d8a5f0fc-b6f7-47b1-bc21-a20cd99a54fa")
+		)
+		(pin "3"
+			(uuid "d3251804-c5e8-42d8-bf19-05b5394e553a")
+		)
+		(pin "13"
+			(uuid "52c105d6-0b07-416d-9c3d-a6015ef7541d")
+		)
+		(pin "40"
+			(uuid "cc39d8f8-5992-4b4c-aa99-781c34ef7c52")
+		)
+		(pin "17"
+			(uuid "eb40a3c3-f1f5-48a4-b609-4c735ec7afcd")
+		)
+		(pin "23"
+			(uuid "a374c159-12db-49e7-ad3d-9b6cc962cd6c")
+		)
+		(pin "24"
+			(uuid "63538d52-7c10-470d-9f05-046581ebe5c2")
+		)
+		(pin "53"
+			(uuid "3f86e98c-8b91-48a4-ab77-d33778a31a34")
+		)
+		(pin "16"
+			(uuid "2115886b-d89a-4060-a792-ff7b8245b16d")
+		)
+		(pin "39"
+			(uuid "e2175ddc-4d0c-45fb-9c6a-53d1ba8262a5")
+		)
+		(pin "54"
+			(uuid "735cd923-49d7-4f92-a07c-0427a18291ba")
+		)
+		(pin "45"
+			(uuid "371a73d8-f538-4504-8168-e8a51bf6be7a")
+		)
+		(pin "60"
+			(uuid "334bcef5-a5a4-40ac-83bf-e7d4a1080c92")
+		)
+		(instances
+			(project "Mini-K1-64"
+				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 213.36 45.72 0)
 		(unit 1)
@@ -8138,303 +8435,6 @@
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
 					(reference "#PWR08")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_NXP_S32K1:FS32K144HAT0MLHT")
-		(at 156.21 62.23 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd8e779b-dffd-420b-bd2e-f6e9c1f1284c")
-		(property "Reference" "U2"
-			(at 170.18 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FS32K144HAT0MLHT"
-			(at 170.18 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 167.894 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/S32K1xx.pdf"
-			(at 154.686 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ARM® Cortex®-M4F S32K Microcontroller IC 32-Bit Single-Core 80MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"
-			(at 201.676 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 153.924 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 197.612 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "LQFP-64 NXP"
-			(at 209.042 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 171.958 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "fbb87a14-094f-490e-91ed-b29b28354c60")
-		)
-		(pin "53"
-			(uuid "655ab1fa-8797-4d56-952f-c4cab1da2dff")
-		)
-		(pin "40"
-			(uuid "eff452a9-341f-4113-aeb2-a2e7b89dbca4")
-		)
-		(pin "4"
-			(uuid "1f7d38c7-cf38-4893-b314-4c8eb09d2f0e")
-		)
-		(pin "39"
-			(uuid "982b525e-8f56-4c5d-8ed6-fc1434ce451d")
-		)
-		(pin "5"
-			(uuid "85fcfa7b-0c9d-47d3-ab19-6c33662aaeca")
-		)
-		(pin "41"
-			(uuid "c7618014-5c7f-4145-bda4-bf2d00f5b68d")
-		)
-		(pin "54"
-			(uuid "80047ac7-ec1c-4b95-8e83-99685d7aa73c")
-		)
-		(pin "59"
-			(uuid "199a837d-5c39-4f04-9a2e-e215586da744")
-		)
-		(pin "6"
-			(uuid "9cb0ac5c-6a0e-4a71-a72e-804532dfc874")
-		)
-		(pin "7"
-			(uuid "5bea4437-69b2-4773-9e68-9bfbf97b2bfb")
-		)
-		(pin "9"
-			(uuid "ad0b223a-3c78-4224-98b1-0c2ab37f12f1")
-		)
-		(pin "8"
-			(uuid "583c9884-d869-407b-a55f-b1643455b599")
-		)
-		(pin "60"
-			(uuid "f0ca100e-ef8a-47f1-85bd-e88272d23ab0")
-		)
-		(pin "28"
-			(uuid "e4525a3f-4664-4cb0-83a1-449adfc0c66a")
-		)
-		(pin "29"
-			(uuid "7129a175-7e1f-4852-8323-6d92156083cd")
-		)
-		(pin "16"
-			(uuid "3e03514a-ce88-44f9-a666-780dc63944e4")
-		)
-		(pin "1"
-			(uuid "deaecb67-e0f9-4e05-ac66-baff86788f75")
-		)
-		(pin "35"
-			(uuid "a2355206-7071-4331-9fe2-202956edff40")
-		)
-		(pin "20"
-			(uuid "5ddffcca-1833-4e44-b3e0-c2fe4f6981bb")
-		)
-		(pin "11"
-			(uuid "c40969e9-9fe4-4fc4-9a46-2c0c0b39595c")
-		)
-		(pin "27"
-			(uuid "e916368f-9e15-43e5-9c2d-95da72127635")
-		)
-		(pin "49"
-			(uuid "a031f10e-94ae-47e0-9d4d-ca152a338cfe")
-		)
-		(pin "18"
-			(uuid "b77309b9-66ee-464d-8b46-a5502782c096")
-		)
-		(pin "51"
-			(uuid "5ba0b6e7-0831-4d6a-b7ee-f46a578ea443")
-		)
-		(pin "62"
-			(uuid "58a4531e-460b-4e1a-8ae7-70c9c38ecf47")
-		)
-		(pin "55"
-			(uuid "7ae73fb3-6f98-466a-bfc1-efa299faef88")
-		)
-		(pin "37"
-			(uuid "a74d9b4f-fce5-4dde-ac56-87a0ae40f0e9")
-		)
-		(pin "64"
-			(uuid "4cd0556d-7961-4eb8-ac6e-8104cb225d5b")
-		)
-		(pin "32"
-			(uuid "866e8894-7099-4631-aa15-aae62ff63ead")
-		)
-		(pin "33"
-			(uuid "a0c87f83-1fe2-4213-80fe-454d3153a309")
-		)
-		(pin "42"
-			(uuid "89c93a58-e848-4918-a32a-8da75dd2d1db")
-		)
-		(pin "52"
-			(uuid "50629eb3-64cf-45b5-a64f-86a4c7c8b17d")
-		)
-		(pin "21"
-			(uuid "5a832d51-29fe-45c5-ac28-f79703dc9b9f")
-		)
-		(pin "22"
-			(uuid "c5381ad0-b189-4248-904f-4ebcd6a616f0")
-		)
-		(pin "30"
-			(uuid "9617acd7-b89a-4d19-8bbc-5082056bbc1d")
-		)
-		(pin "31"
-			(uuid "936fad2d-e7cd-4e6c-bcaa-d9171e194eac")
-		)
-		(pin "46"
-			(uuid "7d34fc93-7329-4732-9b2c-6afe7aa3d11b")
-		)
-		(pin "13"
-			(uuid "3fd66aad-7bb4-407f-9b41-753b4844aed4")
-		)
-		(pin "58"
-			(uuid "777930d0-2727-43d0-95bf-8e2e3316e182")
-		)
-		(pin "43"
-			(uuid "79e4a29a-7976-4bbd-8e38-8c36dcc3d639")
-		)
-		(pin "17"
-			(uuid "6c39c3f6-90f7-47e7-8631-aa8e5fafd42e")
-		)
-		(pin "44"
-			(uuid "af459ee4-7d5e-4486-acbc-8667b79999af")
-		)
-		(pin "12"
-			(uuid "cfa836b3-7f96-46c0-8266-adddb16eb1be")
-		)
-		(pin "3"
-			(uuid "e74f8005-2dcd-4e27-a503-8ab5fed053ad")
-		)
-		(pin "2"
-			(uuid "966dad54-4800-45ff-a312-dfba34fc70a8")
-		)
-		(pin "50"
-			(uuid "90c3a534-b02b-44a6-a074-788e6f355054")
-		)
-		(pin "56"
-			(uuid "56c79379-f768-4bb4-a934-86cc181f5f35")
-		)
-		(pin "63"
-			(uuid "8c03d7fb-e5af-4ae4-91fb-08d52379a6b5")
-		)
-		(pin "15"
-			(uuid "88ce6c3f-0dfa-4878-999b-9da7c8247960")
-		)
-		(pin "48"
-			(uuid "e2e3e034-4494-4ba1-97cf-36a6b6cb6ae6")
-		)
-		(pin "36"
-			(uuid "23f128f7-01c1-44aa-b66a-5b425c0be9b6")
-		)
-		(pin "61"
-			(uuid "bb19fa84-b5b0-4ee7-b4dc-deabcbdcea8d")
-		)
-		(pin "26"
-			(uuid "dcd5cb39-77b4-4255-a561-cb7b0199202c")
-		)
-		(pin "57"
-			(uuid "d59c9378-6bca-40d6-80d8-1702717d6afd")
-		)
-		(pin "25"
-			(uuid "68f2240f-2cae-4e62-aeb9-6fd1e6cf3a7a")
-		)
-		(pin "24"
-			(uuid "631c7bf1-dfb4-4e99-8220-7c76e8ca6da0")
-		)
-		(pin "19"
-			(uuid "2f3a7981-2b14-4449-884a-574a6bd8274f")
-		)
-		(pin "14"
-			(uuid "a3fe4a4a-9404-4ec6-af70-e166f64cb5a1")
-		)
-		(pin "45"
-			(uuid "3793c346-c80d-4c24-b535-f737410a3cbc")
-		)
-		(pin "47"
-			(uuid "31116a69-68bc-40af-bfb3-28bd89d4dd97")
-		)
-		(pin "23"
-			(uuid "efb8fe05-04f2-4816-a2f4-8a98a0229cb6")
-		)
-		(pin "38"
-			(uuid "880e307f-c39b-4ee7-95cc-4d53ece51a5e")
-		)
-		(pin "34"
-			(uuid "7993c2ee-60c0-416a-8e8c-e9b671b02b2a")
-		)
-		(instances
-			(project "Mini-K1-64"
-				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/7e8b3670-5aec-4076-8d2a-ba1c17fd4016"
-					(reference "U2")
-					(unit 4)
 				)
 			)
 		)
