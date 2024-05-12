@@ -1253,7 +1253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f6e8a8-edd1-4177-8684-54f46d0c02a0")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 132.08 90.17 0)
 			(effects
 				(font
@@ -1317,7 +1317,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/d40cf31c-d44b-4043-95be-87a4586e4753"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
