@@ -3622,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4006e40c-057a-4e51-a6d5-d590cc92d827")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 144.78 140.97 90)
 			(effects
 				(font
@@ -3674,7 +3674,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/5ab829c3-c884-4688-b0b2-238a69b254c8"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)

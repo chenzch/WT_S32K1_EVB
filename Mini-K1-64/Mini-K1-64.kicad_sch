@@ -412,26 +412,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 76.2) (xy 200.66 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b1ecc4a-3c37-4f73-aee0-a0871a7b6132")
-	)
-	(wire
-		(pts
-			(xy 184.15 81.28) (xy 200.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1551432f-caa6-402d-8405-cd00d4e75639")
-	)
-	(wire
-		(pts
 			(xy 104.14 77.47) (xy 119.38 77.47)
 		)
 		(stroke
@@ -439,6 +419,16 @@
 			(type default)
 		)
 		(uuid "16abb11e-c271-45fa-b29f-84be06158d28")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edfa855-6657-455b-9d46-0239fcda0a33")
 	)
 	(wire
 		(pts
@@ -452,13 +442,43 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 78.74) (xy 200.66 78.74)
+			(xy 184.15 74.93) (xy 200.66 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "619db406-51b0-4f6b-b1ad-2f6167499d79")
+		(uuid "4ac189ae-b77c-4870-b2c9-b0fcdda86612")
+	)
+	(wire
+		(pts
+			(xy 184.15 82.55) (xy 200.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51becd6a-4255-4a3b-a943-52f2bd0dfed0")
+	)
+	(wire
+		(pts
+			(xy 184.15 85.09) (xy 200.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ddbed2-63c9-44ce-a090-471cdbcbefb0")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f03251b-8287-4de8-adf3-a418d94c3b40")
 	)
 	(wire
 		(pts
@@ -502,13 +522,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 200.66 73.66)
+			(xy 184.15 87.63) (xy 200.66 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec78a749-a117-4fa4-880c-1af5f10e7fa3")
+		(uuid "e6e0de93-1574-4c7d-a32c-c18bd2b556d6")
 	)
 	(wire
 		(pts
@@ -1057,44 +1077,64 @@
 			(uuid "bbd8b25d-7777-4135-b2a1-d0d0aacda7f0")
 		)
 		(pin "RESET" input
-			(at 184.15 73.66 0)
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0e363a82-4f08-40a2-a34c-a43d5c3a1d44")
+			(uuid "4e9e437d-1926-4a12-8b84-d85e3ad08269")
 		)
-		(pin "SWCLK" input
-			(at 184.15 78.74 0)
+		(pin "TMS" bidirectional
+			(at 184.15 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7a7e52be-6242-4d97-a314-dc70d1868293")
+			(uuid "625302f9-b4e8-45a0-89cc-adcbab587e96")
 		)
-		(pin "SWDIO" bidirectional
-			(at 184.15 76.2 0)
+		(pin "TDO" input
+			(at 184.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a30b7bb5-7da3-4746-af43-326f8a535292")
+			(uuid "407a99e6-1c76-4bfe-a15f-88cc4bf82937")
 		)
-		(pin "SWO" output
-			(at 184.15 81.28 0)
+		(pin "DBG" bidirectional
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ee76ff1a-2af2-47a9-8914-9b505760c72b")
+			(uuid "1ac5713a-d966-40cd-bf41-f5e7dd84842f")
+		)
+		(pin "TCK" output
+			(at 184.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be1c7974-eb26-4d2d-a50a-3a13c7ec27e9")
+		)
+		(pin "TDI" output
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a32fc864-4c5e-4592-9ecc-3766ed8e72e6")
 		)
 		(instances
 			(project "Mini-K1-64"
@@ -1134,45 +1174,65 @@
 				(justify left top)
 			)
 		)
-		(pin "SWDIO" bidirectional
-			(at 200.66 76.2 180)
+		(pin "TMS" bidirectional
+			(at 200.66 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8a74c1cf-e7fd-4cd3-bc0c-be8c87856e49")
+			(uuid "869d0e29-8539-467a-a098-6da7e90871d9")
 		)
 		(pin "RESET" output
-			(at 200.66 73.66 180)
+			(at 200.66 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "890ee48f-bc9d-4bb3-a4b6-1c45a71781ca")
+			(uuid "1da98fe4-00ac-4d05-837b-1b8f7610a6e0")
 		)
-		(pin "SWCLK" output
-			(at 200.66 78.74 180)
+		(pin "DBG" bidirectional
+			(at 200.66 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c4b11eb-f43e-4b70-b0ad-ad4b141bba0f")
+			(uuid "269954e6-ed5b-477c-97c4-ae29a6e82c2e")
 		)
-		(pin "SWO" input
-			(at 200.66 81.28 180)
+		(pin "TCK" input
+			(at 200.66 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "909a7e68-1b1e-4853-ac30-3eb7e99ec4fa")
+			(uuid "083c9517-4904-416a-a8d7-0a8ddffef88b")
+		)
+		(pin "TDO" output
+			(at 200.66 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ed215f9-8f1d-4d16-81be-69014418c133")
+		)
+		(pin "TDI" input
+			(at 200.66 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5df260c-def5-4329-ae9b-6aa51e99f204")
 		)
 		(instances
 			(project "Mini-K1-64"

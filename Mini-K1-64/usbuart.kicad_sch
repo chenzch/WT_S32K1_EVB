@@ -3706,7 +3706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a46fbae3-64c9-44da-9ac0-7fbdd103584c")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 170.18 111.7599 0)
 			(effects
 				(font
@@ -3760,7 +3760,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/391bf1b4-7921-4efb-b6a2-50abc6bbaaa6"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3842,7 +3842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b78b07d3-937f-49dd-89b7-116af174bd1f")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 125.73 111.7599 0)
 			(effects
 				(font
@@ -3896,7 +3896,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/391bf1b4-7921-4efb-b6a2-50abc6bbaaa6"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4189,7 +4189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e82ec51e-aa89-4fcc-b787-aaa3bf7237c6")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 162.56 111.7599 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 		(instances
 			(project "Mini-K1-64"
 				(path "/1a7e0d91-a6c0-4b42-a7c6-42574ab26c7c/391bf1b4-7921-4efb-b6a2-50abc6bbaaa6"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
